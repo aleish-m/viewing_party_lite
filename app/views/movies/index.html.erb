@@ -3,12 +3,12 @@
 </div>
 
  <div id="action_options">
-<%= button_to "Discover Movies", user_discover_path(@user.id), method: :get %></center><br>
+<%= button_to "Discover Movies", discover_path, method: :get %></center><br>
 </div>
 
 <% @movies.each do |movie| %>
   <div id="movie-<%= movie %>">
-  <h3>Title: <%= link_to "#{movie.title}", user_movie_path(@user.id, movie.id) %></h3>
+  <h3>Title: <%= link_to "#{movie.title}", movie_path(movie.id) %></h3>
   <h4>Average Rating: <%= movie.rating %></h4><hr>
 <% end %>
 </div>

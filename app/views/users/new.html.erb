@@ -3,11 +3,15 @@
 </div>
 
 <div id="new-user">
-<%= form_with model: [@user], local: true  do |form| %>
+<%= form_with model: [@user], url: register_path, local: true  do |form| %>
     <p><%= form.label :name %>
     <%= form.text_field :name %></p>
     <p><%= form.label :email %>
     <%= form.text_field :email %></p>
+    <p><%= form.label :password, 'Password:' %>
+    <%= form.password_field :password %></p>
+    <p><%= form.label :password_confirmation, 'Confirm Password:' %>
+    <%= form.password_field :password_confirmation %></p>
     <p><%= form.submit "Register" %></p>
 <% end %></center>
 </div>

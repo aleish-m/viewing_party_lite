@@ -80,3 +80,7 @@ VCR.configure do |config|
   config.configure_rspec_metadata!
   config.default_cassette_options = { re_record_interval: 30.days }
 end
+
+RSpec.configure do |config|
+  config.include FactoryBot::Syntax::Methods
+end

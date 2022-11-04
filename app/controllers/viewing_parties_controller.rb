@@ -1,17 +1,19 @@
-class ViewingPartyController < ApplicationController
+class ViewingPartiesController < ApplicationController
+  before_action :require_user
+  
   def new
-    @user = User.find(params[:user_id])
+    @user = current_user
     @movie = MovieFacade.movie_data(params[:movie_id])
     @party = Party.new
-    @users = User.all.where.not(id: params[:user_id])
+    @users = User.all.where.not(id: @user.id)
   end
 
   def create
-    user = User.find(params[:user_id])
+    user = current_user
     movie = MovieFacade.movie_data(params[:movie_id])
 
     party = Party.new(party_params)
-    users = User.all.where.not(id: params[:user_id])
+    users = User.all.where.not(id: user.id)
     if party.save
       users.each do |user|
         if user_params[:"#{user.name}"] != ' '
@@ -19,11 +21,11 @@ class ViewingPartyController < ApplicationController
                            user_id: user_params[:"#{user.name}"])
         end
       end
-      UserParty.create(party_id: party.id, user_id: params[:user_id])
-      redirect_to user_path(user)
+      UserParty.create(party_id: party.id, user_id: user.id)
+      redirect_to dashboard_path
     else
       flash.alert = party.errors.full_messages.to_sentence
-      redirect_to new_user_movie_viewing_party_path(user, movie.id)
+      redirect_to new_movie_viewing_party_path(movie.id)
     end
   end
 

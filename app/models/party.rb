@@ -6,7 +6,7 @@ class Party < ApplicationRecord
   validate :compare_duration_to_movie_time
 
   def start_date
-    date.strftime('%B %e, %Y')
+    date.strftime('%B %d, %Y')
   end
 
   def time

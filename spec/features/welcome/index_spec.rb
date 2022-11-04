@@ -2,45 +2,79 @@ require 'rails_helper'
 
 RSpec.describe 'welcome page', type: :feature do
   describe 'index page' do
-    it 'has the title of the application' do
-      visit '/'
-      expect(page).to have_content('Viewing Party Lite')
-    end
-
-    it 'has a button to create a new user' do
-      visit '/'
-      expect(page).to have_button('Create a New User')
-      click_button('Create a New User')
-      expect(page).to have_current_path('/register')
-    end
-
-    it 'has a link to return to landing page' do
-      user_1 = User.create!(name: 'First User', email: 'firstuser@mail.com')
-      user_2 = User.create!(name: 'Second Visitor', email: 'secondvisitor@email.com')
-
-      visit '/'
-      expect(page).to have_content('Existing Users')
-
-      within '#user-0' do
-        expect(page).to have_content('First User')
-        expect(page).to_not have_content('Second Visitor')
+    describe 'before user is logged in' do
+      before :each do 
+        @user_1 = create(:user)
+        @user_2 = create(:user)
       end
 
-      within '#user-1' do
-        expect(page).to have_content('Second Visitor')
-        expect(page).to_not have_content('First User')
+      it 'has the title of the application' do
+        visit root_path
+        expect(page).to have_content('Viewing Party Lite')
+      end
+
+      it 'has a button to create a new user' do
+        visit root_path
+        expect(page).to have_button('Create an Account')
+        click_button('Create an Account')
+        expect(page).to have_current_path(new_register_path)
+      end
+
+      it 'does not have a section for existing users' do
+        visit root_path
+
+        expect(page).to_not have_content('Existing Users')
+
+        expect(page).to_not have_content("#{@user_1.name}")
+        expect(page).to_not have_content("#{@user_2.name}")
+        
       end
     end
 
-    it 'each existing user links to user dashboard' do
-      user_1 = User.create!(name: 'First User', email: 'firstuser@mail.com')
-      user_2 = User.create!(name: 'Second Visitor', email: 'secondvisitor@email.com')
+    describe 'after user has logged in' do
+      before :each do 
+        @user_1 = create(:user)
+        @user_2 = create(:user)
 
-      visit '/'
+        visit login_path
+        fill_in 'Email', with: "#{@user_1.email}"
+        fill_in 'Password', with: "#{@user_1.password}"
+        click_button "Submit"
 
-      click_link("First User's Dashboard")
-      expect(current_path).to eq("/users/#{user_1.id}")
-      expect(current_path).to_not eq("/users/#{user_2.id}")
+        visit root_path
+      end
+
+      it 'has the title of the application' do
+        expect(page).to have_content('Viewing Party Lite')
+      end
+
+      it 'has a button to Log Out' do
+        expect(page).to have_button('Log Out')
+      end
+
+      it 'has a section for existing users where each users name and email is listed' do
+        expect(page).to have_content('Existing Users')
+
+        within '#user-0' do
+          expect(page).to have_content("#{@user_1.name}")
+          expect(page).to have_content("#{@user_1.email}")
+          expect(page).to_not have_content("#{@user_2.name}")
+        end
+
+        within '#user-1' do
+          expect(page).to have_content("#{@user_2.name}")
+          expect(page).to have_content("#{@user_2.email}")
+          expect(page).to_not have_content("#{@user_1.name}")
+        end
+      end
+
+      ### Outdated functionality ###
+      # it 'each existing user links to user dashboard' do
+      #   visit root_path
+        
+      #   click_link("#{@user_1.name}'s Dashboard")
+      #   expect(current_path).to eq(dashboard_path)
+      # end
     end
   end
 end

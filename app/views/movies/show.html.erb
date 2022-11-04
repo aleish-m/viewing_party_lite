@@ -2,10 +2,10 @@
   <center><h2><%= @movie.title %></h3>
     <div id="action_options">
       <p>
-        <%= button_to "Discover Page", user_discover_path(@user), method: :get %>
+        <%= button_to "Discover Page", discover_path, method: :get %>
       </p>
       <p>
-        <%= button_to "Create Viewing Party for #{@movie.title}", new_user_movie_viewing_party_path(@user, @movie.id), method: :get %>
+        <%= button_to "Create Viewing Party for #{@movie.title}", new_movie_viewing_party_path(@movie.id), method: :get %>
       </p></center><br>
     </div>
       <h4>

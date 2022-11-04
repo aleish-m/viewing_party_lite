@@ -6,21 +6,43 @@ This is the base repo for the [Viewing Party Lite project](https://backend.turin
 
 Viewing Part Lite is an application in which users can explore movie options and create a viewing party event for themselves and other users of the application.
 
-## Setup for the use of the project
+# Table of Contents
 
-1. A conveyor belt link will be sent out at project kickoff so that you can both fork and copy the project board on this base repo. 
+- [Requirements](https://github.com/aleish-m/viewing_party_lite/blob/main/README.md#requirements)
+- [Installation](https://github.com/aleish-m/viewing_party_lite/blob/main/README.md#installation)
+- [Deployment](https://github.com/aleish-m/viewing_party_lite/blob/main/README.md#deployment)
+- [Contributors](https://github.com/aleish-m/viewing_party_lite/blob/main/README.md#contributors)
 
-## Local Setup for any other use
+## Requirements
 
-1. Fork and Clone the repo
-2. Install gem packages: `bundle install`
-3. Setup the database: `rails db:create`
+- Ruby 2.7.4
 
+- Rails 5.2.X
 
-## Versions
+## Installation
 
-- Ruby 2.7.2
+To get started, clone the repo in your terminal by entering the following:
+```
+git clone git@github.com:aleish-m/viewing_party_lite.git
+```
 
-- Rails 5.2.6
+Once cloned, run the following commands:
+```
+- bundle install
+- rails db:create
+- rails db:migrate
+- Install Figaro
+  - `bundle exec figaro install`
+- Update the `application.yml` file with `ENV` variables storing API keys for The Movie DB API: https://developers.themoviedb.org/3/getting-started/introduction
+```
 
-Example wireframes to follow are found [here](https://backend.turing.io/module3/projects/viewing_party_lite/wireframes)
+## Deployment
+
+Viewing Party is deployed remotely on Herkou.
+
+Base URL: https://viewing-party-2207.herokuapp.com/
+
+## Contributors
+- **Aleisha Mork** - *Turing Student* - [GitHub](https://github.com/aleish-m)
+- **Nicole Esquer** - *Turing Student* - [GitHub](https://github.com/nicole-esquer)
+
