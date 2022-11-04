@@ -2,43 +2,42 @@ require 'rails_helper'
 
 RSpec.describe 'User Dashboard', type: :feature do
   describe 'As a User' do
+    before :each do
+      @user_1 = create(:user)
+      @user_2 = create(:user)
+    end
     it 'shows users names dashboard at top of page' do
-      user_1 = User.create!(name: 'First User', email: 'firstuser@mail.com')
-      user_2 = User.create!(name: 'Second Visitor', email: 'secondvisitor@email.com')
+      visit user_path(@user_1.id)
 
-      visit user_path(user_1.id)
-
-      expect(page).to have_content(user_1.name)
-      expect(page).to have_content("First User's Dashboard")
-      expect(page).to_not have_content("Second Visitor's Dashboard")
+      expect(page).to have_content(@user_1.name)
+      expect(page).to have_content("#{@user_1.name}'s Dashboard")
+      expect(page).to_not have_content("#{@user_2.name}'s Dashboard")
     end
 
     it 'has a button to discover movies' do
-      user_1 = User.create!(name: 'First User', email: 'firstuser@mail.com')
-      visit user_path(user_1.id)
+      visit user_path(@user_1.id)
       expect(page).to have_button('Discover Movies')
     end
 
     it 'has a section that lists viewing parties' do
-      user_1 = User.create!(name: 'First User', email: 'firstuser@mail.com')
-      visit user_path(user_1.id)
+      visit user_path(@user_1.id)
       expect(page).to have_content('Viewing Parties')
     end
 
     describe 'Veiwing parties' do
       describe 'I should see the viewing parties that the user has been invited to with the following details:' do
         before :each do
-          @user_1 = User.create!(name: 'Jane', email: 'jane@mail.com')
-          @user_2 = User.create!(name: 'John', email: 'john@mail.com')
-          @user_3 = User.create!(name: 'Megan', email: 'megan@mail.com')
-          @user_4 = User.create!(name: 'Mike', email: 'mike@mail.com')
+          @user_1 = create(:user)
+          @user_2 = create(:user)
+          @user_3 = create(:user)
+          @user_4 = create(:user)
 
-          @party_1 = Party.create!(movie_id: 8, duration: 80, date: '2023/8/10', start_time: '21:00',
-                                   host_id: @user_1.id, movie_runtime: 80)
-          @party_2 = Party.create!(movie_id: 2, duration: 73, date: '10/12/2022', start_time: '18:00',
-                                   host_id: @user_3.id, movie_runtime: 73)
-          @party_3 = Party.create!(movie_id: 3, duration: 74, date: '12/11/2022', start_time: '16:30',
-                                   host_id: @user_2.id, movie_runtime: 70)
+          # @party_1 = create(:party, movie_id: 8, duration: 80, date: '2023/8/10', start_time: '21:00',
+          @party_1 = create(:party, movie_id: 8, host_id: @user_1.id)
+          # @party_2 = create(:party, movie_id: 2, duration: 73, date: '10/12/2022', start_time: '18:00',
+          @party_2 = create(:party, movie_id: 2, host_id: @user_3.id)
+          # @party_3 = create(:party, movie_id: 3, duration: 74, date: '12/11/2022', start_time: '16:30',
+          @party_3 = create(:party, movie_id: 3, host_id: @user_2.id)
 
           @party_1.users << @user_1
           @party_1.users << @user_2

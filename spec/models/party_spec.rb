@@ -22,10 +22,10 @@ RSpec.describe Party, type: :model do
 
   describe 'model methods' do
     before :each do
-      @user_1 = User.create!(name: 'Jane', email: 'jane@mail.com')
-      @user_2 = User.create!(name: 'John', email: 'john@mail.com')
-      @user_3 = User.create!(name: 'Megan', email: 'megan@mail.com')
-      @user_4 = User.create!(name: 'Mike', email: 'mike@mail.com')
+      @user_1 = create(:user)
+      @user_2 = create(:user)
+      @user_3 = create(:user)
+      @user_4 = create(:user)
 
       @party_1 = Party.create!(movie_id: 8, duration: 80, date: '2023/8/10', start_time: '21:00', host_id: @user_1.id,
                                movie_runtime: 80)
@@ -45,9 +45,9 @@ RSpec.describe Party, type: :model do
     end
 
     it 'find_host' do
-      expect(@party_1.find_host).to eq('Jane')
-      expect(@party_2.find_host).to eq('Megan')
-      expect(@party_2.find_host).to_not eq('John')
+      expect(@party_1.find_host).to eq("#{@user_1.name}")
+      expect(@party_2.find_host).to eq("#{@user_3.name}")
+      expect(@party_2.find_host).to_not eq("#{@user_2.name}")
     end
 
     it 'find_title', :vcr do

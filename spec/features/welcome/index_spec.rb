@@ -15,30 +15,30 @@ RSpec.describe 'welcome page', type: :feature do
     end
 
     it 'has a link to return to landing page' do
-      user_1 = User.create!(name: 'First User', email: 'firstuser@mail.com')
-      user_2 = User.create!(name: 'Second Visitor', email: 'secondvisitor@email.com')
+      user_1 = create(:user)
+      user_2 = create(:user)
 
       visit '/'
       expect(page).to have_content('Existing Users')
 
       within '#user-0' do
-        expect(page).to have_content('First User')
-        expect(page).to_not have_content('Second Visitor')
+        expect(page).to have_content("#{user_1.name}")
+        expect(page).to_not have_content("#{user_2.name}")
       end
 
       within '#user-1' do
-        expect(page).to have_content('Second Visitor')
-        expect(page).to_not have_content('First User')
+        expect(page).to have_content("#{user_2.name}")
+        expect(page).to_not have_content("#{user_1.name}")
       end
     end
 
     it 'each existing user links to user dashboard' do
-      user_1 = User.create!(name: 'First User', email: 'firstuser@mail.com')
-      user_2 = User.create!(name: 'Second Visitor', email: 'secondvisitor@email.com')
+      user_1 = create(:user)
+      user_2 = create(:user)
 
       visit '/'
-
-      click_link("First User's Dashboard")
+      
+      click_link("#{user_1.name}'s Dashboard")
       expect(current_path).to eq("/users/#{user_1.id}")
       expect(current_path).to_not eq("/users/#{user_2.id}")
     end

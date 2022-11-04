@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'Movie Detail Page', type: :feature do
   describe 'As a User' do
     before :each do
-      @user_1 = User.create!(name: 'Jane', email: 'jane@mail.com')
+      @user_1 = create(:user)
 
       @movie_1 = MovieFacade.movie_data(271_110)
       @movie_2 = MovieFacade.movie_data(3)

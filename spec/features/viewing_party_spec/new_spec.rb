@@ -4,10 +4,10 @@ RSpec.describe 'New Viewing Party Page' do
   describe 'As a user' do
     describe 'When I visit the new viewing party page', vcr: { record: :new_episodes } do
       before :each do
-        @user_1 = User.create!(name: 'Jane', email: 'jane@mail.com')
-        @user_2 = User.create!(name: 'John', email: 'john@mail.com')
-        @user_3 = User.create!(name: 'Megan', email: 'megan@mail.com')
-        @user_4 = User.create!(name: 'Mike', email: 'mike@mail.com')
+        @user_1 = create(:user)
+        @user_2 = create(:user)
+        @user_3 = create(:user)
+        @user_4 = create(:user)
 
         @movie_1 = MovieFacade.movie_data(271_110)
         @movie_2 = MovieFacade.movie_data(3)

@@ -4,7 +4,7 @@ RSpec.describe 'Movie Dashboard', type: :feature do
   describe 'As a User' do
     describe 'Discover Movies Page' do
       before :each do
-        @user_1 = User.create!(name: 'Morgan', email: 'morgan_m@juno.com')
+        @user_1 = create(:user)
       end
 
       it 'When I go to a user dashboard, and click "Discover Movies" button, I am redirected to a discover page' do
