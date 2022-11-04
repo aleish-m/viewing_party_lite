@@ -1,13 +1,33 @@
 require 'rails_helper'
 
 RSpec.describe 'User Dashboard', type: :feature do
-  describe 'As a User' do
+  describe 'As a visitor' do
     before :each do
       @user_1 = create(:user)
       @user_2 = create(:user)
     end
+
+    it "When I try to visit '/dashboard' I remain on the landing page And I see a message telling me that I must be logged in or registered to access my dashboard" do
+      visit dashboard_path
+
+      expect(current_path).to eq(root_path)
+      expect(page).to have_content("Please log in to access the requested page")
+    end
+  end
+
+  describe 'As a User' do
+    before :each do
+      @user_1 = create(:user)
+      @user_2 = create(:user)
+
+      visit login_path
+      fill_in 'Email', with: "#{@user_1.email}"
+      fill_in 'Password', with: "#{@user_1.password}"
+      click_button "Submit"
+    end
+
     it 'shows users names dashboard at top of page' do
-      visit user_path(@user_1.id)
+      visit dashboard_path
 
       expect(page).to have_content(@user_1.name)
       expect(page).to have_content("#{@user_1.name}'s Dashboard")
@@ -15,12 +35,12 @@ RSpec.describe 'User Dashboard', type: :feature do
     end
 
     it 'has a button to discover movies' do
-      visit user_path(@user_1.id)
+      visit dashboard_path
       expect(page).to have_button('Discover Movies')
     end
 
     it 'has a section that lists viewing parties' do
-      visit user_path(@user_1.id)
+      visit dashboard_path
       expect(page).to have_content('Viewing Parties')
     end
 
@@ -32,11 +52,8 @@ RSpec.describe 'User Dashboard', type: :feature do
           @user_3 = create(:user)
           @user_4 = create(:user)
 
-          # @party_1 = create(:party, movie_id: 8, duration: 80, date: '2023/8/10', start_time: '21:00',
           @party_1 = create(:party, movie_id: 8, host_id: @user_1.id)
-          # @party_2 = create(:party, movie_id: 2, duration: 73, date: '10/12/2022', start_time: '18:00',
           @party_2 = create(:party, movie_id: 2, host_id: @user_3.id)
-          # @party_3 = create(:party, movie_id: 3, duration: 74, date: '12/11/2022', start_time: '16:30',
           @party_3 = create(:party, movie_id: 3, host_id: @user_2.id)
 
           @party_1.users << @user_1
@@ -50,10 +67,15 @@ RSpec.describe 'User Dashboard', type: :feature do
 
           @party_3.users << @user_1
           @party_3.users << @user_2
+
+          visit login_path
+          fill_in 'Email', with: "#{@user_1.email}"
+          fill_in 'Password', with: "#{@user_1.password}"
+          click_button "Submit"
         end
 
-        it 'Each viewing party has a Movie Image', :vcr do
-          visit user_path(@user_1)
+        it 'Each viewing party has a Movie Image', vcr: { record: :new_episodes } do
+          visit dashboard_path
 
           within("#view-parties-#{@user_1.id}") do
             expect(page).to have_css("img[src='#{MovieFacade.movie_data(@party_1.movie_id).image}']")
@@ -61,7 +83,10 @@ RSpec.describe 'User Dashboard', type: :feature do
             expect(page).to have_css("img[src='#{MovieFacade.movie_data(@party_3.movie_id).image}']")
           end
 
-          visit user_path(@user_4)
+          visit login_path
+          fill_in 'Email', with: "#{@user_4.email}"
+          fill_in 'Password', with: "#{@user_4.password}"
+          click_button "Submit"
 
           within("#view-parties-#{@user_4.id}") do
             expect(page).to have_css("img[src='#{MovieFacade.movie_data(@party_2.movie_id).image}']")
@@ -71,8 +96,8 @@ RSpec.describe 'User Dashboard', type: :feature do
           end
         end
 
-        it 'Each viewing party has a Movie Title, which links to the movie show page', :vcr do
-          visit user_path(@user_1)
+        it 'Each viewing party has a Movie Title, which links to the movie show page', vcr: { record: :new_episodes } do
+          visit dashboard_path
 
           within("#view-parties-#{@user_1.id}") do
             expect(page).to have_link("#{MovieFacade.movie_data(@party_1.movie_id).title}")
@@ -80,7 +105,10 @@ RSpec.describe 'User Dashboard', type: :feature do
             expect(page).to have_link("#{MovieFacade.movie_data(@party_3.movie_id).title}")
           end
 
-          visit user_path(@user_4)
+          visit login_path
+          fill_in 'Email', with: "#{@user_4.email}"
+          fill_in 'Password', with: "#{@user_4.password}"
+          click_button "Submit"
 
           within("#view-parties-#{@user_4.id}") do
             expect(page).to have_link("#{MovieFacade.movie_data(@party_2.movie_id).title}")
@@ -90,8 +118,8 @@ RSpec.describe 'User Dashboard', type: :feature do
           end
         end
 
-        it 'Each viewing party has a Date and Time of the Event', :vcr do
-          visit user_path(@user_1)
+        it 'Each viewing party has a Date and Time of the Event', vcr: { record: :new_episodes } do
+          visit dashboard_path
 
           within("#view-parties-#{@user_1.id}") do
             expect(page).to have_content(@party_1.start_date)
@@ -103,7 +131,10 @@ RSpec.describe 'User Dashboard', type: :feature do
             expect(page).to have_content(@party_3.time)
           end
 
-          visit user_path(@user_4)
+          visit login_path
+          fill_in 'Email', with: "#{@user_4.email}"
+          fill_in 'Password', with: "#{@user_4.password}"
+          click_button "Submit"
 
           within("#view-parties-#{@user_4.id}") do
             expect(page).to have_content(@party_2.start_date)
@@ -117,15 +148,18 @@ RSpec.describe 'User Dashboard', type: :feature do
           end
         end
 
-        it 'Each viewing party has a who is hosting, list of users invited', :vcr do
-          visit user_path(@user_1)
+        it 'Each viewing party has a who is hosting, list of users invited', vcr: { record: :new_episodes } do
+          visit dashboard_path
 
           within("#view-parties-#{@user_1.id}") do
             expect(page).to have_content('Hosting')
             expect(page).to have_content('Invited')
           end
 
-          visit user_path(@user_4)
+          visit login_path
+          fill_in 'Email', with: "#{@user_4.email}"
+          fill_in 'Password', with: "#{@user_4.password}"
+          click_button "Submit"
 
           within("#view-parties-#{@user_4.id}") do
             expect(page).to have_content('Invited')
@@ -134,8 +168,8 @@ RSpec.describe 'User Dashboard', type: :feature do
           end
         end
 
-        it 'list of users invited', :vcr do
-          visit user_path(@user_1)
+        it 'list of users invited', vcr: { record: :new_episodes } do
+          visit dashboard_path
 
           within("#view-parties-#{@user_1.id}") do
             within("#party-#{@party_1.id}") do
@@ -160,7 +194,10 @@ RSpec.describe 'User Dashboard', type: :feature do
             end
           end
 
-          visit user_path(@user_4)
+          visit login_path
+          fill_in 'Email', with: "#{@user_4.email}"
+          fill_in 'Password', with: "#{@user_4.password}"
+          click_button "Submit"
 
           within("#view-parties-#{@user_4.id}") do
             within("#party-#{@party_2.id}") do

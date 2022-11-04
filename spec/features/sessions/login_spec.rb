@@ -6,7 +6,7 @@ RSpec.describe 'User Login Page' do
       it "I see a link for 'Log In', When I click on 'Log In' I'm taken to a Log In page" do
         visit root_path
 
-        click_button "Login"
+        click_button "Log In"
 
         expect(current_path).to eq login_path
       end
@@ -25,7 +25,7 @@ RSpec.describe 'User Login Page' do
 
         click_button "Submit"
 
-        expect(current_path).to eq(user_path(@user_1))
+        expect(current_path).to eq(dashboard_path)
       end
 
       it "On the Log In page where I can input my unique email and password. When I fail to fill in my correct email I'm taken back to the Log In page And I can see a flash message telling me that I entered incorrect credentials" do

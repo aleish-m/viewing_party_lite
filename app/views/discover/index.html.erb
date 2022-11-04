@@ -4,14 +4,14 @@
 
 
 <div id="action_options">
-<%= button_to "Find Top Rated Movies", user_movies_path(@user.id), params: {query: 'top_rated'}, method: :get %><br>
+<%= button_to "Find Top Rated Movies", movies_path, params: {query: 'top_rated'}, method: :get %><br>
 </div>
 
 
 <p>OR</p><br>
 
 <div id="movie-search">
-<%= form_with url: user_movies_path(@user.id), method: :get, local: true do |f| %>
+<%= form_with url: movies_path, method: :get, local: true do |f| %>
   <%= f.text_field :q, placeholder: 'Search by Movie Title' %>
   <%= f.submit 'Find Movies' %>
 <% end %></center>

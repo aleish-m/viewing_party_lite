@@ -1,13 +1,15 @@
 class MoviesController < ApplicationController
+  # before_action :require_user
+
   def show
-    @user = User.find(params[:user_id])
+    @user = current_user
     @movie = MovieFacade.movie_data(params[:id])
     @cast = MovieFacade.cast_data(params[:id])
     @reviews = MovieFacade.review_data(params[:id])
   end
 
   def index
-    @user = User.find(params[:user_id])
+    @user = current_user
     if !params[:q].nil?
       @movies = MovieFacade.movies_search(params[:q])
       @page_title = "Movie results for: #{params[:q]}"

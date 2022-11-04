@@ -3,12 +3,18 @@ require 'rails_helper'
 RSpec.describe 'Discover Movies page', type: :feature do
   before :each do
     @user_1 = create(:user)
-    visit user_discover_path(@user_1.id)
+
+    visit login_path
+    fill_in 'Email', with: "#{@user_1.email}"
+    fill_in 'Password', with: "#{@user_1.password}"
+    click_button "Submit"
+
+    visit discover_path
   end
 
   it 'user sees Discover Movies title' do
     expect(page).to have_content('Discover Movies')
-    expect(current_path).to eq(user_discover_path(@user_1.id))
+    expect(current_path).to eq(discover_path)
   end
 
   it 'has button to discover top rated movies' do
@@ -28,7 +34,7 @@ RSpec.describe 'Discover Movies page', type: :feature do
 
     click_link('The Godfather')
 
-    expect(page).to have_current_path("/users/#{@user_1.id}/movies/238")
+    expect(page).to have_current_path(movie_path(238))
   end
 
   it 'has the correct page title', :vcr do
@@ -41,7 +47,7 @@ RSpec.describe 'Discover Movies page', type: :feature do
     click_button('Find Top Rated Movies')
 
     click_button('Discover Movies')
-    expect(page).to have_current_path(user_discover_path(@user_1.id))
+    expect(page).to have_current_path(discover_path)
   end
 
   it 'returns matches and partial matches based off keyword', :vcr do
@@ -59,6 +65,6 @@ RSpec.describe 'Discover Movies page', type: :feature do
     click_button('Find Movies')
     click_button('Discover Movies')
 
-    expect(current_path).to eq(user_discover_path(@user_1.id))
+    expect(current_path).to eq(discover_path)
   end
 end
