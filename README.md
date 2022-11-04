@@ -39,12 +39,13 @@ Once cloned, run the following commands:
 ## Deployment
 
 Viewing Party is deployed remotely on Herkou.
+
 Heroku URL: https://viewing-party-2207.herokuapp.com/
 
-Test User Acounts: 
-- email: test1@mail.com, password: test123 
-- email: test2@mail.com, password: test123 
-- email: test3@mail.com, password: test123 
+- Test User Acounts: 
+  - email: test1@mail.com, password: test123 
+  - email: test2@mail.com, password: test123 
+  - email: test3@mail.com, password: test123 
 
 
 
