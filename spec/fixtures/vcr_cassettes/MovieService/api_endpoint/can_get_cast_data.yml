@@ -25,68 +25,62 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Oct 2022 17:06:26 GMT
+      - Thu, 17 Nov 2022 16:55:36 GMT
       Server:
       - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
       Cache-Control:
       - public, max-age=28800
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Key:
       - 1fc2ddf5da9490dcb7124f185c83e74ac9c80650
       X-Memc-Age:
-      - '4981'
+      - '0'
       X-Memc-Expires:
-      - '10023'
+      - '17078'
       Etag:
-      - W/"05f8a48cb550afe893c8dd197667c431"
+      - W/"1b90db2658308f555cf1541eec8de511"
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 a7c0ba01db75946f7df3f7eaf69984b6.cloudfront.net (CloudFront)
+      - 1.1 88bce767af5e31f726ade38ea5253bd4.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - WDFlVajpIOsY7lstl2g7bcJYNlltUXFQ3YC6qiygO4rMdFpND-epNA==
+      - DMdCgcXXOPYD8qIWfVnucjuhah5L7V4YbLUgYDX8Sk3-ZT6J6-Vxkg==
       Age:
-      - '25'
+      - '29'
     body:
       encoding: UTF-8
       string: '{"id":3,"cast":[{"adult":false,"gender":2,"id":4826,"known_for_department":"Acting","name":"Matti
-        Pellonpää","original_name":"Matti Pellonpää","popularity":5.612,"profile_path":"/1Qzhkkp3wFE2NMGKVyOra9931q2.jpg","cast_id":5,"character":"Nikander","credit_id":"52fe420dc3a36847f8000087","order":0},{"adult":false,"gender":1,"id":5999,"known_for_department":"Acting","name":"Kati
-        Outinen","original_name":"Kati Outinen","popularity":3.414,"profile_path":"/mi78e4O4hQBQygxVVtwXdV2xqiu.jpg","cast_id":6,"character":"Ilona
+        Pellonpää","original_name":"Matti Pellonpää","popularity":5.082,"profile_path":"/1Qzhkkp3wFE2NMGKVyOra9931q2.jpg","cast_id":5,"character":"Nikander","credit_id":"52fe420dc3a36847f8000087","order":0},{"adult":false,"gender":1,"id":5999,"known_for_department":"Acting","name":"Kati
+        Outinen","original_name":"Kati Outinen","popularity":5.129,"profile_path":"/mi78e4O4hQBQygxVVtwXdV2xqiu.jpg","cast_id":6,"character":"Ilona
         Rajamäki","credit_id":"52fe420dc3a36847f800008b","order":1},{"adult":false,"gender":2,"id":4828,"known_for_department":"Acting","name":"Sakari
-        Kuosmanen","original_name":"Sakari Kuosmanen","popularity":1.834,"profile_path":"/syM87lzV2IqFno87Za1PbeAUdMW.jpg","cast_id":7,"character":"Melartin","credit_id":"52fe420dc3a36847f800008f","order":2},{"adult":false,"gender":2,"id":53508,"known_for_department":"Acting","name":"Esko
-        Nikkari","original_name":"Esko Nikkari","popularity":2.582,"profile_path":"/mNiyD3BOzWba4CB0VTbIqA4EAVm.jpg","cast_id":9,"character":"Nikander''s
+        Kuosmanen","original_name":"Sakari Kuosmanen","popularity":0.786,"profile_path":"/syM87lzV2IqFno87Za1PbeAUdMW.jpg","cast_id":7,"character":"Melartin","credit_id":"52fe420dc3a36847f800008f","order":2},{"adult":false,"gender":2,"id":53508,"known_for_department":"Acting","name":"Esko
+        Nikkari","original_name":"Esko Nikkari","popularity":3.238,"profile_path":"/mNiyD3BOzWba4CB0VTbIqA4EAVm.jpg","cast_id":9,"character":"Nikander''s
         Co-Worker","credit_id":"52fe420dc3a36847f8000099","order":3},{"adult":false,"gender":1,"id":1086499,"known_for_department":"Acting","name":"Kylli
-        Köngäs","original_name":"Kylli Köngäs","popularity":3.879,"profile_path":"/qswommjAWaVRtetDb0HDcWxHVCu.jpg","cast_id":10,"character":"Ilona''s
+        Köngäs","original_name":"Kylli Köngäs","popularity":2.588,"profile_path":"/qswommjAWaVRtetDb0HDcWxHVCu.jpg","cast_id":10,"character":"Ilona''s
         Friend","credit_id":"52fe420dc3a36847f800009d","order":4},{"adult":false,"gender":2,"id":222320,"known_for_department":"Acting","name":"Pekka
-        Laiho","original_name":"Pekka Laiho","popularity":1.4,"profile_path":"/iYTw4uW0XgBSrhYTw7QssZgyEhQ.jpg","cast_id":11,"character":"Store
+        Laiho","original_name":"Pekka Laiho","popularity":1.388,"profile_path":"/iYTw4uW0XgBSrhYTw7QssZgyEhQ.jpg","cast_id":11,"character":"Store
         Manager","credit_id":"52fe420dc3a36847f80000a1","order":5},{"adult":false,"gender":2,"id":1086500,"known_for_department":"Acting","name":"Jukka-Pekka
-        Palo","original_name":"Jukka-Pekka Palo","popularity":1.191,"profile_path":"/x5mzVVdQSkAt3mImR2XcGrKjRQa.jpg","cast_id":12,"character":"Third
+        Palo","original_name":"Jukka-Pekka Palo","popularity":1.4,"profile_path":"/x5mzVVdQSkAt3mImR2XcGrKjRQa.jpg","cast_id":12,"character":"Third
         Man","credit_id":"52fe420dc3a36847f80000a5","order":6},{"adult":false,"gender":2,"id":2307211,"known_for_department":"Acting","name":"Svante
-        Korkiakoski","original_name":"Svante Korkiakoski","popularity":1.339,"profile_path":"/tyUFwDfULEzadMa7aOFBqaZ0oWx.jpg","cast_id":28,"character":"Police
+        Korkiakoski","original_name":"Svante Korkiakoski","popularity":0.694,"profile_path":"/tyUFwDfULEzadMa7aOFBqaZ0oWx.jpg","cast_id":28,"character":"Police
         Officer","credit_id":"5eca14ba0fb17f001d8041f2","order":7},{"adult":false,"gender":1,"id":148389,"known_for_department":"Acting","name":"Mari
-        Rantasila","original_name":"Mari Rantasila","popularity":2.422,"profile_path":"/fXruthOtA8rcGkyUgYxuKoBcI43.jpg","cast_id":29,"character":"Nikander''s
+        Rantasila","original_name":"Mari Rantasila","popularity":1.388,"profile_path":"/fXruthOtA8rcGkyUgYxuKoBcI43.jpg","cast_id":29,"character":"Nikander''s
         Sister","credit_id":"5eca154d0fb17f001d804249","order":8},{"adult":false,"gender":2,"id":1761924,"known_for_department":"Acting","name":"Safka
-        Pekkonen","original_name":"Safka Pekkonen","popularity":1.4,"profile_path":"/kOFMsI7htwbLfsmnNAmGmnowCc1.jpg","cast_id":30,"character":"Pianist","credit_id":"5eca15850fb17f001d80428c","order":9},{"adult":false,"gender":2,"id":2651471,"known_for_department":"Sound","name":"Antti
+        Pekkonen","original_name":"Safka Pekkonen","popularity":0.656,"profile_path":"/kOFMsI7htwbLfsmnNAmGmnowCc1.jpg","cast_id":30,"character":"Pianist","credit_id":"5eca15850fb17f001d80428c","order":9},{"adult":false,"gender":2,"id":2651471,"known_for_department":"Sound","name":"Antti
         Ortamo","original_name":"Antti Ortamo","popularity":0.6,"profile_path":null,"cast_id":31,"character":"Pianist","credit_id":"5eca17d8e635710022d365e3","order":10},{"adult":false,"gender":2,"id":106172,"known_for_department":"Acting","name":"Mato
-        Valtonen","original_name":"Mato Valtonen","popularity":2.847,"profile_path":"/tWfPkRw0vwKRBfMLyJbQWsXvmw6.jpg","cast_id":32,"character":"Pelle","credit_id":"5eca1824e635710022d36658","order":11},{"adult":false,"gender":2,"id":69552,"known_for_department":"Acting","name":"Sakke
-        Järvenpää","original_name":"Sakke Järvenpää","popularity":1.895,"profile_path":"/9lnWNR4Om9m50vmvuqGOvWzsCUo.jpg","cast_id":33,"character":"Staffan","credit_id":"5eca1849e635710022d3668a","order":12},{"adult":false,"gender":1,"id":2651474,"known_for_department":"Acting","name":"Ulla
+        Valtonen","original_name":"Mato Valtonen","popularity":2.788,"profile_path":"/tWfPkRw0vwKRBfMLyJbQWsXvmw6.jpg","cast_id":32,"character":"Pelle","credit_id":"5eca1824e635710022d36658","order":11},{"adult":false,"gender":2,"id":69552,"known_for_department":"Acting","name":"Sakke
+        Järvenpää","original_name":"Sakke Järvenpää","popularity":2.182,"profile_path":"/9lnWNR4Om9m50vmvuqGOvWzsCUo.jpg","cast_id":33,"character":"Staffan","credit_id":"5eca1849e635710022d3668a","order":12},{"adult":false,"gender":1,"id":2651474,"known_for_department":"Acting","name":"Ulla
         Kuosmanen","original_name":"Ulla Kuosmanen","popularity":0.6,"profile_path":null,"cast_id":34,"character":"Melartin''s
         Wife","credit_id":"5eca18a50fb17f001d80472b","order":13},{"adult":false,"gender":2,"id":1294421,"known_for_department":"Acting","name":"Neka
-        Haapanen","original_name":"Neka Haapanen","popularity":0.6,"profile_path":null,"cast_id":35,"character":"Cook","credit_id":"5eca18f9140bad001b1c1016","order":14},{"adult":false,"gender":2,"id":2651478,"known_for_department":"Acting","name":"Pentti
+        Haapanen","original_name":"Neka Haapanen","popularity":0.972,"profile_path":null,"cast_id":35,"character":"Cook","credit_id":"5eca18f9140bad001b1c1016","order":14},{"adult":false,"gender":2,"id":2651478,"known_for_department":"Acting","name":"Pentti
         Koski","original_name":"Pentti Koski","popularity":0.6,"profile_path":null,"cast_id":36,"character":"Singer","credit_id":"5eca19778e2e0000202396a4","order":15},{"adult":false,"gender":2,"id":2651481,"known_for_department":"Acting","name":"Ari
         Korhonen","original_name":"Ari Korhonen","popularity":0.6,"profile_path":null,"cast_id":37,"character":"Man
         in Restaurant","credit_id":"5eca1a35140bad001b1c1203","order":16},{"adult":false,"gender":2,"id":2651483,"known_for_department":"Acting","name":"Teuvo
@@ -102,65 +96,65 @@ http_interactions:
         Daughter","credit_id":"5eca1e2de635710020d0a2a0","order":22},{"adult":false,"gender":2,"id":3457313,"known_for_department":"Acting","name":"Eskil
         Mansikka","original_name":"Eskil Mansikka","popularity":0.6,"profile_path":null,"cast_id":45,"character":"Keyboardist
         (uncredited)","credit_id":"623d63d9a349110093cbf97b","order":23},{"adult":false,"gender":2,"id":4831,"known_for_department":"Acting","name":"Jaakko
-        Talaskivi","original_name":"Jaakko Talaskivi","popularity":1.875,"profile_path":"/60miNZTNQEp2jkRkD1aSrtpT2M2.jpg","cast_id":46,"character":"Guard
+        Talaskivi","original_name":"Jaakko Talaskivi","popularity":2.376,"profile_path":"/60miNZTNQEp2jkRkD1aSrtpT2M2.jpg","cast_id":46,"character":"Guard
         (uncredited)","credit_id":"623d63e5481382005c9904e2","order":24},{"adult":false,"gender":0,"id":2159274,"known_for_department":"Production","name":"Haije
-        Alanoja","original_name":"Haije Alanoja","popularity":0.6,"profile_path":null,"cast_id":47,"character":"Woman
+        Alanoja","original_name":"Haije Alanoja","popularity":0.833,"profile_path":null,"cast_id":47,"character":"Woman
         in Restaurant (uncredited)","credit_id":"623d63effd6fa10047abab8b","order":25},{"adult":false,"gender":1,"id":3479164,"known_for_department":"Acting","name":"Bertta
         Pellonpää","original_name":"Bertta Pellonpää","popularity":0.6,"profile_path":null,"cast_id":48,"character":"Bingo
         Player (uncredited)","credit_id":"623d63faa7e36300485c324c","order":26},{"adult":false,"gender":2,"id":2651545,"known_for_department":"Acting","name":"Helmeri
         Pellonpää","original_name":"Helmeri Pellonpää","popularity":0.6,"profile_path":null,"cast_id":49,"character":"Bingo
         Player (uncredited)","credit_id":"623d644befca00005c4bfdac","order":27},{"adult":false,"gender":1,"id":1303969,"known_for_department":"Camera","name":"Marja-Leena
-        Hukkanen","original_name":"Marja-Leena Hukkanen","popularity":0.722,"profile_path":null,"cast_id":50,"character":"Woman
+        Hukkanen","original_name":"Marja-Leena Hukkanen","popularity":1.22,"profile_path":null,"cast_id":50,"character":"Woman
         in Restaurant (uncredited)","credit_id":"623d6455d7dcd2008bceac83","order":28},{"adult":false,"gender":2,"id":16767,"known_for_department":"Directing","name":"Aki
-        Kaurismäki","original_name":"Aki Kaurismäki","popularity":5.905,"profile_path":"/kiJErWEOv4Ew7aHOGKg4ljsmppZ.jpg","cast_id":44,"character":"Hotel
+        Kaurismäki","original_name":"Aki Kaurismäki","popularity":3.003,"profile_path":"/kiJErWEOv4Ew7aHOGKg4ljsmppZ.jpg","cast_id":44,"character":"Hotel
         Receptionist (uncredited)","credit_id":"5eca1ef2d2147c0023c34830","order":29},{"adult":false,"gender":2,"id":1381113,"known_for_department":"Lighting","name":"Olli
-        Varja","original_name":"Olli Varja","popularity":0.96,"profile_path":null,"cast_id":51,"character":"Customer
+        Varja","original_name":"Olli Varja","popularity":0.857,"profile_path":null,"cast_id":51,"character":"Customer
         (uncredited)","credit_id":"623d6bd9a7e363005dbb70e4","order":30},{"adult":false,"gender":1,"id":3477088,"known_for_department":"Acting","name":"Tanja
         Talaskivi","original_name":"Tanja Talaskivi","popularity":0.6,"profile_path":null,"cast_id":52,"character":"Woman
         in Cinema (uncredited)","credit_id":"623d6be4bc865700488598f5","order":31},{"adult":false,"gender":2,"id":1912097,"known_for_department":"Directing","name":"Jukka
-        Mäkinen","original_name":"Jukka Mäkinen","popularity":0.6,"profile_path":"/4d77gtENcIdMCVtqOygV36DftrO.jpg","cast_id":53,"character":"Garbage
+        Mäkinen","original_name":"Jukka Mäkinen","popularity":0.694,"profile_path":"/4d77gtENcIdMCVtqOygV36DftrO.jpg","cast_id":53,"character":"Garbage
         Man (uncredited)","credit_id":"623d6bf04fd141005ecfd27a","order":32}],"crew":[{"adult":false,"gender":2,"id":16767,"known_for_department":"Directing","name":"Aki
-        Kaurismäki","original_name":"Aki Kaurismäki","popularity":5.905,"profile_path":"/kiJErWEOv4Ew7aHOGKg4ljsmppZ.jpg","credit_id":"52fe420dc3a36847f8000071","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":16767,"known_for_department":"Directing","name":"Aki
-        Kaurismäki","original_name":"Aki Kaurismäki","popularity":5.905,"profile_path":"/kiJErWEOv4Ew7aHOGKg4ljsmppZ.jpg","credit_id":"623d71064813820088a15d7b","department":"Writing","job":"Writer"},{"adult":false,"gender":2,"id":16769,"known_for_department":"Camera","name":"Timo
-        Salminen","original_name":"Timo Salminen","popularity":0.814,"profile_path":"/a8rH6eJ0XY1zQph18eNDj7MC8y4.jpg","credit_id":"5963e8a3c3a36828fc0e46e5","department":"Camera","job":"Director
+        Kaurismäki","original_name":"Aki Kaurismäki","popularity":3.003,"profile_path":"/kiJErWEOv4Ew7aHOGKg4ljsmppZ.jpg","credit_id":"52fe420dc3a36847f8000071","department":"Directing","job":"Director"},{"adult":false,"gender":2,"id":16767,"known_for_department":"Directing","name":"Aki
+        Kaurismäki","original_name":"Aki Kaurismäki","popularity":3.003,"profile_path":"/kiJErWEOv4Ew7aHOGKg4ljsmppZ.jpg","credit_id":"623d71064813820088a15d7b","department":"Writing","job":"Writer"},{"adult":false,"gender":2,"id":16769,"known_for_department":"Camera","name":"Timo
+        Salminen","original_name":"Timo Salminen","popularity":0.766,"profile_path":"/a8rH6eJ0XY1zQph18eNDj7MC8y4.jpg","credit_id":"5963e8a3c3a36828fc0e46e5","department":"Camera","job":"Director
         of Photography"},{"adult":false,"gender":1,"id":54766,"known_for_department":"Editing","name":"Raija
-        Talvio","original_name":"Raija Talvio","popularity":0.786,"profile_path":null,"credit_id":"52fe420dc3a36847f8000083","department":"Editing","job":"Editor"},{"adult":false,"gender":1,"id":54771,"known_for_department":"Costume
-        \u0026 Make-Up","name":"Tuula Hilkamo","original_name":"Tuula Hilkamo","popularity":0.6,"profile_path":null,"credit_id":"5e1395b26c0b360011ffb228","department":"Costume
+        Talvio","original_name":"Raija Talvio","popularity":0.84,"profile_path":null,"credit_id":"52fe420dc3a36847f8000083","department":"Editing","job":"Editor"},{"adult":false,"gender":1,"id":54771,"known_for_department":"Costume
+        \u0026 Make-Up","name":"Tuula Hilkamo","original_name":"Tuula Hilkamo","popularity":0.841,"profile_path":null,"credit_id":"5e1395b26c0b360011ffb228","department":"Costume
         \u0026 Make-Up","job":"Costume Design"},{"adult":false,"gender":2,"id":54767,"known_for_department":"Directing","name":"Mika
-        Kaurismäki","original_name":"Mika Kaurismäki","popularity":3.331,"profile_path":"/p9Z53Mi03GPkyznS6Ho0RuEedyJ.jpg","credit_id":"52fe420dc3a36847f8000095","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":4831,"known_for_department":"Acting","name":"Jaakko
-        Talaskivi","original_name":"Jaakko Talaskivi","popularity":1.875,"profile_path":"/60miNZTNQEp2jkRkD1aSrtpT2M2.jpg","credit_id":"5e1395dd9020120018b8d2cf","department":"Production","job":"Production
+        Kaurismäki","original_name":"Mika Kaurismäki","popularity":2.188,"profile_path":"/p9Z53Mi03GPkyznS6Ho0RuEedyJ.jpg","credit_id":"52fe420dc3a36847f8000095","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":4831,"known_for_department":"Acting","name":"Jaakko
+        Talaskivi","original_name":"Jaakko Talaskivi","popularity":2.376,"profile_path":"/60miNZTNQEp2jkRkD1aSrtpT2M2.jpg","credit_id":"5e1395dd9020120018b8d2cf","department":"Production","job":"Production
         Manager"},{"adult":false,"gender":2,"id":16772,"known_for_department":"Sound","name":"Jouko
-        Lumme","original_name":"Jouko Lumme","popularity":1.603,"profile_path":null,"credit_id":"623d7313211ce500478d7458","department":"Sound","job":"Sound
+        Lumme","original_name":"Jouko Lumme","popularity":1.669,"profile_path":null,"credit_id":"623d7313211ce500478d7458","department":"Sound","job":"Sound
         Editor"},{"adult":false,"gender":2,"id":16772,"known_for_department":"Sound","name":"Jouko
-        Lumme","original_name":"Jouko Lumme","popularity":1.603,"profile_path":null,"credit_id":"623d713fb4224200882e4296","department":"Sound","job":"Sound"},{"adult":false,"gender":2,"id":94755,"known_for_department":"Editing","name":"Jukka
-        Nykänen","original_name":"Jukka Nykänen","popularity":0.6,"profile_path":null,"credit_id":"623d72efbc8657004885a37a","department":"Editing","job":"Assistant
+        Lumme","original_name":"Jouko Lumme","popularity":1.669,"profile_path":null,"credit_id":"623d713fb4224200882e4296","department":"Sound","job":"Sound"},{"adult":false,"gender":2,"id":94755,"known_for_department":"Editing","name":"Jukka
+        Nykänen","original_name":"Jukka Nykänen","popularity":0.694,"profile_path":null,"credit_id":"623d72efbc8657004885a37a","department":"Editing","job":"Assistant
         Editor"},{"adult":false,"gender":2,"id":110756,"known_for_department":"Acting","name":"Juuso
-        Hirvikangas","original_name":"Juuso Hirvikangas","popularity":1.014,"profile_path":"/7rvAPTsfz9U2E5tYghfY8YQlZ94.jpg","credit_id":"623d720d211ce5005c9da65f","department":"Sound","job":"Sound
+        Hirvikangas","original_name":"Juuso Hirvikangas","popularity":2.305,"profile_path":"/7rvAPTsfz9U2E5tYghfY8YQlZ94.jpg","credit_id":"623d720d211ce5005c9da65f","department":"Sound","job":"Sound
         Assistant"},{"adult":false,"gender":2,"id":1034489,"known_for_department":"Directing","name":"Pauli
-        Pentti","original_name":"Pauli Pentti","popularity":0.829,"profile_path":"/qpg1bW5DaRRPqjEuwYWAXkstBx6.jpg","credit_id":"5e1395d0d8af670014bfaed4","department":"Directing","job":"Assistant
+        Pentti","original_name":"Pauli Pentti","popularity":3.59,"profile_path":"/qpg1bW5DaRRPqjEuwYWAXkstBx6.jpg","credit_id":"5e1395d0d8af670014bfaed4","department":"Directing","job":"Assistant
         Director"},{"adult":false,"gender":2,"id":1084612,"known_for_department":"Production","name":"Heikki
         Ukkonen","original_name":"Heikki Ukkonen","popularity":0.6,"profile_path":null,"credit_id":"623d7228945c200090277bc7","department":"Production","job":"Location
         Manager"},{"adult":false,"gender":2,"id":1084614,"known_for_department":"Art","name":"Pertti
         Hilkamo","original_name":"Pertti Hilkamo","popularity":0.6,"profile_path":null,"credit_id":"623d715ad1a893005ccd5760","department":"Art","job":"Production
         Design"},{"adult":false,"gender":1,"id":1303969,"known_for_department":"Camera","name":"Marja-Leena
-        Hukkanen","original_name":"Marja-Leena Hukkanen","popularity":0.722,"profile_path":null,"credit_id":"5ebb8978614c6d001d8f006d","department":"Camera","job":"Still
+        Hukkanen","original_name":"Marja-Leena Hukkanen","popularity":1.22,"profile_path":null,"credit_id":"5ebb8978614c6d001d8f006d","department":"Camera","job":"Still
         Photographer"},{"adult":false,"gender":1,"id":1303969,"known_for_department":"Camera","name":"Marja-Leena
-        Hukkanen","original_name":"Marja-Leena Hukkanen","popularity":0.722,"profile_path":null,"credit_id":"5ebb89bbc3514c002062a0f7","department":"Directing","job":"Script
+        Hukkanen","original_name":"Marja-Leena Hukkanen","popularity":1.22,"profile_path":null,"credit_id":"5ebb89bbc3514c002062a0f7","department":"Directing","job":"Script
         Supervisor"},{"adult":false,"gender":2,"id":1381112,"known_for_department":"Lighting","name":"Mikko
-        Mattila","original_name":"Mikko Mattila","popularity":0.694,"profile_path":null,"credit_id":"623d71e9945c200090277b61","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":2,"id":1381113,"known_for_department":"Lighting","name":"Olli
-        Varja","original_name":"Olli Varja","popularity":0.96,"profile_path":null,"credit_id":"623d71cd481382005c991c1c","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":2,"id":1540906,"known_for_department":"Camera","name":"Heikki
+        Mattila","original_name":"Mikko Mattila","popularity":0.828,"profile_path":null,"credit_id":"623d71e9945c200090277b61","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":2,"id":1381113,"known_for_department":"Lighting","name":"Olli
+        Varja","original_name":"Olli Varja","popularity":0.857,"profile_path":null,"credit_id":"623d71cd481382005c991c1c","department":"Lighting","job":"Gaffer"},{"adult":false,"gender":2,"id":1540906,"known_for_department":"Camera","name":"Heikki
         Ortamo","original_name":"Heikki Ortamo","popularity":0.6,"profile_path":null,"credit_id":"623d71955541fa004953f4a5","department":"Camera","job":"Assistant
         Camera"},{"adult":false,"gender":0,"id":1683985,"known_for_department":"Sound","name":"Kjell
-        Westman","original_name":"Kjell Westman","popularity":0.68,"profile_path":null,"credit_id":"623d7350945c200090277da9","department":"Sound","job":"Sound
+        Westman","original_name":"Kjell Westman","popularity":1.564,"profile_path":null,"credit_id":"623d7350945c200090277da9","department":"Sound","job":"Sound
         Re-Recording Mixer"},{"adult":false,"gender":2,"id":1750241,"known_for_department":"Camera","name":"Timo
         Markko","original_name":"Timo Markko","popularity":0.6,"profile_path":null,"credit_id":"623d71a5d1a893008862663f","department":"Camera","job":"Assistant
         Camera"},{"adult":false,"gender":1,"id":1761858,"known_for_department":"Costume
         \u0026 Make-Up","name":"Leena Kouhia","original_name":"Leena Kouhia","popularity":0.6,"profile_path":null,"credit_id":"5e1395c0fc5f06001991e483","department":"Costume
         \u0026 Make-Up","job":"Makeup Artist"},{"adult":false,"gender":2,"id":2159272,"known_for_department":"Editing","name":"Timo
-        Nousiainen","original_name":"Timo Nousiainen","popularity":1.38,"profile_path":null,"credit_id":"623d749a4fd14100961466d9","department":"Editing","job":"Colorist"},{"adult":false,"gender":0,"id":2159274,"known_for_department":"Production","name":"Haije
-        Alanoja","original_name":"Haije Alanoja","popularity":0.6,"profile_path":null,"credit_id":"623d73359ca75900482a9898","department":"Production","job":"Production
+        Nousiainen","original_name":"Timo Nousiainen","popularity":0.6,"profile_path":null,"credit_id":"623d749a4fd14100961466d9","department":"Editing","job":"Colorist"},{"adult":false,"gender":0,"id":2159274,"known_for_department":"Production","name":"Haije
+        Alanoja","original_name":"Haije Alanoja","popularity":0.833,"profile_path":null,"credit_id":"623d73359ca75900482a9898","department":"Production","job":"Production
         Secretary"},{"adult":false,"gender":1,"id":3479190,"known_for_department":"Editing","name":"Eila
         Karkkunen","original_name":"Eila Karkkunen","popularity":0.6,"profile_path":null,"credit_id":"623d73f1fd6fa1005cc49d49","department":"Editing","job":"Negative
         Cutter"}]}'
-  recorded_at: Fri, 14 Oct 2022 17:06:51 GMT
+  recorded_at: Thu, 17 Nov 2022 16:56:05 GMT
 recorded_with: VCR 6.1.0

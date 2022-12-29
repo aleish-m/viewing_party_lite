@@ -25,32 +25,26 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Oct 2022 17:06:21 GMT
+      - Thu, 17 Nov 2022 16:55:31 GMT
       Server:
       - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
       Cache-Control:
       - public, max-age=600
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding,Accept-Encoding
+      - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 16d72e0791ff01fc4470d27fc024527a.cloudfront.net (CloudFront)
+      - 1.1 bd96da9a6020f2a5d5499cedf78d68f2.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 6adGgHXpHpmXspekAKgS5HA8xbGn9TKPxkXwjn8NM0U3CIAFBTWaPQ==
+      - Z5svwV6gCgJOdrTyVUpDhxyZr6p4fjZB-WMjTyMD1LkcMGbhte6S0w==
       Age:
-      - '30'
+      - '34'
     body:
       encoding: UTF-8
       string: '{"page":1,"results":[{"adult":false,"backdrop_path":"/tBOLfpP25TgqnWvhvsWocEXOoYS.jpg","genre_ids":[35,80,28],"id":1493,"original_language":"en","original_title":"Miss
@@ -58,12 +52,24 @@ http_interactions:
         a terrorist known only as ''The Citizen'', it''s quickly determined that he''s
         planning his next act at the Miss America beauty pageant. Because tough-as-nails
         Gracie Hart is the only female Agent at the office, she''s chosen to go undercover
-        as the contestant from New Jersey.","popularity":25.629,"poster_path":"/pat3vKaRlB70he4ghwTMydR4TvP.jpg","release_date":"2000-12-22","title":"Miss
-        Congeniality","video":false,"vote_average":6.5,"vote_count":3291},{"adult":false,"backdrop_path":"/2UYxVugjbaPHH5f3cEQveufe75Y.jpg","genre_ids":[28,35],"id":10040,"original_language":"en","original_title":"Miss
+        as the contestant from New Jersey.","popularity":19.157,"poster_path":"/pat3vKaRlB70he4ghwTMydR4TvP.jpg","release_date":"2000-12-22","title":"Miss
+        Congeniality","video":false,"vote_average":6.5,"vote_count":3312},{"adult":false,"backdrop_path":"/2UYxVugjbaPHH5f3cEQveufe75Y.jpg","genre_ids":[28,35],"id":10040,"original_language":"en","original_title":"Miss
         Congeniality 2: Armed and Fabulous","overview":"After her triumph at the Miss
         United States pageant, FBI agent Gracie Hart becomes an overnight sensation
         -- and the new \"face of the FBI\". But it''s time to spring into action again
-        when the pageant''s winner, Cheryl, and emcee, Stan, are abducted.","popularity":19.578,"poster_path":"/gcYoIHND3ugn2VH1cNHHNQasEyI.jpg","release_date":"2005-04-14","title":"Miss
-        Congeniality 2: Armed and Fabulous","video":false,"vote_average":5.7,"vote_count":1581}],"total_pages":1,"total_results":2}'
-  recorded_at: Fri, 14 Oct 2022 17:06:51 GMT
+        when the pageant''s winner, Cheryl, and emcee, Stan, are abducted.","popularity":19.677,"poster_path":"/gcYoIHND3ugn2VH1cNHHNQasEyI.jpg","release_date":"2005-04-14","title":"Miss
+        Congeniality 2: Armed and Fabulous","video":false,"vote_average":5.7,"vote_count":1588},{"adult":false,"backdrop_path":"/izSw50iwj6OoxwR87FQGsJildCB.jpg","genre_ids":[],"id":1048168,"original_language":"en","original_title":"Miss
+        Congeniality 1&2","overview":"FBI Agent Gracie Hart became an overnight media
+        sensation after  she successfully disarmed a threat against the Miss United
+        States Pageant while working undercover as a  contestant. But things haven''t
+        been going so well for her lately. Reeling from a broken romance and  frustrated
+        to find her newfound fame is jeopardizing the undercover work she loves, Gracie
+        reluctantly let her  boss, Agent McDonald, talk her into serving the Bureau
+        in the only way now possible: coifed and styled for  the talk show circuit
+        as \"the face of the FBI.\" Capitalizing on the greatest PR coup in agency
+        history, the  FBI  presses their new poster girl into a while of photos ops
+        where she re-enacts her pageant exploits to an  adoring public, with the help
+        of her personal stylist Joel to smooth her rougher edges.","popularity":0.6,"poster_path":"/utHsYgOiLW0h8GbkMyDaynIPiZx.jpg","release_date":"","title":"Miss
+        Congeniality 1&2","video":false,"vote_average":0,"vote_count":0}],"total_pages":1,"total_results":3}'
+  recorded_at: Thu, 17 Nov 2022 16:56:05 GMT
 recorded_with: VCR 6.1.0

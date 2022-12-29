@@ -25,16 +25,9 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Oct 2022 17:06:26 GMT
+      - Thu, 17 Nov 2022 16:55:36 GMT
       Server:
       - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
       Cache-Control:
       - public, max-age=28800
       X-Memc:
@@ -44,23 +37,24 @@ http_interactions:
       X-Memc-Age:
       - '0'
       X-Memc-Expires:
-      - '15063'
-      Last-Modified:
-      - Fri, 25 Mar 2022 06:37:48 GMT
+      - '15725'
+      Etag:
+      - W/"f640efa02988af88fc92c8dea313b453"
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 0ecc9d4faf14441bafb84971a4117abc.cloudfront.net (CloudFront)
+      - 1.1 ac79b9352835edad28c9b0bc7dd7f8b0.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - l4TEdhN9Tvi2tLE4SO8PI0oWjydunjWPePu8jOuCBKMJ_6lFiv0Onw==
+      - GjyDNTw7w6iqNKUvjkcRQsFeHvD3Cyhq88oFxnD0jbm6bticXDmRMw==
       Age:
-      - '26'
+      - '28'
     body:
       encoding: UTF-8
       string: '{"id":3,"page":1,"results":[{"author":"CRCulver","author_details":{"name":"","username":"CRCulver","avatar_path":null,"rating":7.0},"content":"Released
@@ -84,5 +78,5 @@ http_interactions:
         extremely charming, and I would recommend the film. Certainly the performances
         of Pellonpää (in a typical Pellonpää role) and Outinen (who seemingly reinvents
         herself in every film) will prove quite memorable.","created_at":"2018-09-06T19:31:51.288Z","id":"5b9180a7c3a3687adc005547","updated_at":"2021-06-23T15:58:12.193Z","url":"https://www.themoviedb.org/review/5b9180a7c3a3687adc005547"}],"total_pages":1,"total_results":1}'
-  recorded_at: Fri, 14 Oct 2022 17:06:52 GMT
+  recorded_at: Thu, 17 Nov 2022 16:56:05 GMT
 recorded_with: VCR 6.1.0

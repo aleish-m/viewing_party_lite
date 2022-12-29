@@ -25,16 +25,9 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Oct 2022 17:06:25 GMT
+      - Thu, 17 Nov 2022 16:55:35 GMT
       Server:
       - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
       Cache-Control:
       - public, max-age=28800
       X-Memc:
@@ -42,39 +35,40 @@ http_interactions:
       X-Memc-Key:
       - 135c09591ed48adbff648f8b4e4448224ed50b7b
       X-Memc-Age:
-      - '13642'
+      - '11488'
       X-Memc-Expires:
-      - '919'
+      - '3659'
       Etag:
-      - W/"6d7d3e3a5882123798cd7e96198c016f"
+      - W/"55e6aa3cddd50df25aa494347c32b31a"
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 05fe6f95b77eb54d0691950915c27264.cloudfront.net (CloudFront)
+      - 1.1 61ff1927788a811372346b5470412a78.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - ASbhgg1UXvFa49jNRx6DPaz-FoWa6Z_fAGhF7PVaJlD3ZvDclvXm4Q==
+      - UXTdgT6ryVWVqZCzR44XEw-NpHkHemPfUNQ9lC1YjzJR3RlLnNvC6A==
       Age:
-      - '25'
+      - '28'
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg","belongs_to_collection":{"id":131295,"name":"Captain
+      string: '{"adult":false,"backdrop_path":"/7FWlcZq3r6525LWOcvO9kNWurN1.jpg","belongs_to_collection":{"id":131295,"name":"Captain
         America Collection","poster_path":"/2tOgiY533JSFp7OrVlkeRJvsZpI.jpg","backdrop_path":"/ezEpSQhUQxVKdMx81zaSLsTHv7j.jpg"},"budget":250000000,"genres":[{"id":12,"name":"Adventure"},{"id":28,"name":"Action"},{"id":878,"name":"Science
         Fiction"}],"homepage":"https://www.marvel.com/movies/captain-america-civil-war","id":271110,"imdb_id":"tt3498820","original_language":"en","original_title":"Captain
         America: Civil War","overview":"Following the events of Age of Ultron, the
         collective governments of the world pass an act designed to regulate all superhuman
         activity. This polarizes opinion amongst the Avengers, causing two factions
         to side with Iron Man or Captain America, which causes an epic battle between
-        former allies.","popularity":119.669,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
+        former allies.","popularity":113.289,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
         Studios","origin_country":"US"}],"production_countries":[{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"2016-04-27","revenue":1153337496,"runtime":147,"spoken_languages":[{"english_name":"Romanian","iso_639_1":"ro","name":"Română"},{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"German","iso_639_1":"de","name":"Deutsch"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"}],"status":"Released","tagline":"United
-        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.437,"vote_count":20338}'
-  recorded_at: Fri, 14 Oct 2022 17:06:50 GMT
+        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.437,"vote_count":20449}'
+  recorded_at: Thu, 17 Nov 2022 16:56:03 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
@@ -100,16 +94,9 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Oct 2022 17:06:25 GMT
+      - Thu, 17 Nov 2022 16:55:35 GMT
       Server:
       - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
       Cache-Control:
       - public, max-age=28800
       X-Memc:
@@ -117,33 +104,34 @@ http_interactions:
       X-Memc-Key:
       - 82c1a0020867427996ad31593b14e1e0a9b8aa3a
       X-Memc-Age:
-      - '8250'
+      - '1337'
       X-Memc-Expires:
-      - '7886'
+      - '15162'
       Etag:
-      - W/"f704539d6d4e2285bf57363d65910410"
+      - W/"cc74f711616b71a6c0e1b994c012d958"
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 a42ce842e0f60814700ead82353e9f08.cloudfront.net (CloudFront)
+      - 1.1 025e84e972a461c1dd140ac5fbbbd0aa.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - vgSX6lWOaqWnLE6GF09LTftu9VCKsRYmnVg-XkiDH9R-h1EkXtRooQ==
+      - 5rlDXTGNyefypzAdmEzR9Lhyp9YkV02k5cNQ8EF9B6Orcw8JIRHc-Q==
       Age:
-      - '25'
+      - '28'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
         paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
-        involving the death of a co-worker, an affair and much more.","popularity":19.786,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Shadows
-        in Paradise","video":false,"vote_average":7.213,"vote_count":200}'
-  recorded_at: Fri, 14 Oct 2022 17:06:50 GMT
+        involving the death of a co-worker, an affair and much more.","popularity":5.686,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Shadows
+        in Paradise","video":false,"vote_average":7.225,"vote_count":202}'
+  recorded_at: Thu, 17 Nov 2022 16:56:03 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/271110?api_key=<API Key>&language=en-US
@@ -169,16 +157,9 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Oct 2022 17:06:25 GMT
+      - Thu, 17 Nov 2022 16:55:35 GMT
       Server:
       - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
       Cache-Control:
       - public, max-age=28800
       X-Memc:
@@ -186,39 +167,40 @@ http_interactions:
       X-Memc-Key:
       - 135c09591ed48adbff648f8b4e4448224ed50b7b
       X-Memc-Age:
-      - '13642'
+      - '11488'
       X-Memc-Expires:
-      - '919'
+      - '3659'
       Etag:
-      - W/"6d7d3e3a5882123798cd7e96198c016f"
+      - W/"55e6aa3cddd50df25aa494347c32b31a"
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 3fddcbe99f78632bf14e5e80e6c14058.cloudfront.net (CloudFront)
+      - 1.1 f0a2a95cb4d25b2414a9c1a7a754943e.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - He9YzkXUARTpAs--sFgYQ5mVbbh6MjO7e3qsJzKM_hXbuMyIoo6Tvg==
+      - SVftc-kn-c6A2-SM8lipvcKUjhHwlF8P4b69kwaWJSdgyQZNgK0lMg==
       Age:
-      - '25'
+      - '28'
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg","belongs_to_collection":{"id":131295,"name":"Captain
+      string: '{"adult":false,"backdrop_path":"/7FWlcZq3r6525LWOcvO9kNWurN1.jpg","belongs_to_collection":{"id":131295,"name":"Captain
         America Collection","poster_path":"/2tOgiY533JSFp7OrVlkeRJvsZpI.jpg","backdrop_path":"/ezEpSQhUQxVKdMx81zaSLsTHv7j.jpg"},"budget":250000000,"genres":[{"id":12,"name":"Adventure"},{"id":28,"name":"Action"},{"id":878,"name":"Science
         Fiction"}],"homepage":"https://www.marvel.com/movies/captain-america-civil-war","id":271110,"imdb_id":"tt3498820","original_language":"en","original_title":"Captain
         America: Civil War","overview":"Following the events of Age of Ultron, the
         collective governments of the world pass an act designed to regulate all superhuman
         activity. This polarizes opinion amongst the Avengers, causing two factions
         to side with Iron Man or Captain America, which causes an epic battle between
-        former allies.","popularity":119.669,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
+        former allies.","popularity":113.289,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
         Studios","origin_country":"US"}],"production_countries":[{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"2016-04-27","revenue":1153337496,"runtime":147,"spoken_languages":[{"english_name":"Romanian","iso_639_1":"ro","name":"Română"},{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"German","iso_639_1":"de","name":"Deutsch"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"}],"status":"Released","tagline":"United
-        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.437,"vote_count":20338}'
-  recorded_at: Fri, 14 Oct 2022 17:06:50 GMT
+        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.437,"vote_count":20449}'
+  recorded_at: Thu, 17 Nov 2022 16:56:03 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/271110?api_key=<API Key>&language=en-US
@@ -244,16 +226,9 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Oct 2022 17:06:25 GMT
+      - Thu, 17 Nov 2022 16:55:35 GMT
       Server:
       - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
       Cache-Control:
       - public, max-age=28800
       X-Memc:
@@ -261,39 +236,40 @@ http_interactions:
       X-Memc-Key:
       - 135c09591ed48adbff648f8b4e4448224ed50b7b
       X-Memc-Age:
-      - '13642'
+      - '11488'
       X-Memc-Expires:
-      - '919'
+      - '3659'
       Etag:
-      - W/"6d7d3e3a5882123798cd7e96198c016f"
+      - W/"55e6aa3cddd50df25aa494347c32b31a"
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 a42ce842e0f60814700ead82353e9f08.cloudfront.net (CloudFront)
+      - 1.1 f6992241dd15e99fe1ce21d807856f16.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - WGPPmFp1IDRvzvmZBBDEURARgJok_WSs9GmK0f_Ay7LQ6S84fCRePw==
+      - KCX5MB_eMzlzOkueZvldkzGPQjdcx5UZlZEYoh-uHo_43Gsteg7AfQ==
       Age:
-      - '25'
+      - '29'
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg","belongs_to_collection":{"id":131295,"name":"Captain
+      string: '{"adult":false,"backdrop_path":"/7FWlcZq3r6525LWOcvO9kNWurN1.jpg","belongs_to_collection":{"id":131295,"name":"Captain
         America Collection","poster_path":"/2tOgiY533JSFp7OrVlkeRJvsZpI.jpg","backdrop_path":"/ezEpSQhUQxVKdMx81zaSLsTHv7j.jpg"},"budget":250000000,"genres":[{"id":12,"name":"Adventure"},{"id":28,"name":"Action"},{"id":878,"name":"Science
         Fiction"}],"homepage":"https://www.marvel.com/movies/captain-america-civil-war","id":271110,"imdb_id":"tt3498820","original_language":"en","original_title":"Captain
         America: Civil War","overview":"Following the events of Age of Ultron, the
         collective governments of the world pass an act designed to regulate all superhuman
         activity. This polarizes opinion amongst the Avengers, causing two factions
         to side with Iron Man or Captain America, which causes an epic battle between
-        former allies.","popularity":119.669,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
+        former allies.","popularity":113.289,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
         Studios","origin_country":"US"}],"production_countries":[{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"2016-04-27","revenue":1153337496,"runtime":147,"spoken_languages":[{"english_name":"Romanian","iso_639_1":"ro","name":"Română"},{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"German","iso_639_1":"de","name":"Deutsch"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"}],"status":"Released","tagline":"United
-        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.437,"vote_count":20338}'
-  recorded_at: Fri, 14 Oct 2022 17:06:50 GMT
+        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.437,"vote_count":20449}'
+  recorded_at: Thu, 17 Nov 2022 16:56:04 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/271110?api_key=<API Key>&language=en-US
@@ -319,16 +295,9 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 14 Oct 2022 17:06:25 GMT
+      - Thu, 17 Nov 2022 16:55:35 GMT
       Server:
       - openresty
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, HEAD, POST, PUT, DELETE, OPTIONS
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
-        Content-Length, Content-Range
       Cache-Control:
       - public, max-age=28800
       X-Memc:
@@ -336,37 +305,38 @@ http_interactions:
       X-Memc-Key:
       - 135c09591ed48adbff648f8b4e4448224ed50b7b
       X-Memc-Age:
-      - '13642'
+      - '11488'
       X-Memc-Expires:
-      - '919'
+      - '3659'
       Etag:
-      - W/"6d7d3e3a5882123798cd7e96198c016f"
+      - W/"55e6aa3cddd50df25aa494347c32b31a"
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 1c13683c7de319f25e08f83861fc6dc2.cloudfront.net (CloudFront)
+      - 1.1 9b688924e5b0f0b5e4c639d19cb145f0.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - DEN52-P2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 4R8dc5rVNeYcv8TpKmzx3JIqRQvse0vZHucLE3EJfJpfGW06kqjiQw==
+      - GunChAjl08AhlGjcqcyYbAhf3iYANR0dMDGJcYpC7t7ohmZRbqnaVg==
       Age:
-      - '25'
+      - '29'
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg","belongs_to_collection":{"id":131295,"name":"Captain
+      string: '{"adult":false,"backdrop_path":"/7FWlcZq3r6525LWOcvO9kNWurN1.jpg","belongs_to_collection":{"id":131295,"name":"Captain
         America Collection","poster_path":"/2tOgiY533JSFp7OrVlkeRJvsZpI.jpg","backdrop_path":"/ezEpSQhUQxVKdMx81zaSLsTHv7j.jpg"},"budget":250000000,"genres":[{"id":12,"name":"Adventure"},{"id":28,"name":"Action"},{"id":878,"name":"Science
         Fiction"}],"homepage":"https://www.marvel.com/movies/captain-america-civil-war","id":271110,"imdb_id":"tt3498820","original_language":"en","original_title":"Captain
         America: Civil War","overview":"Following the events of Age of Ultron, the
         collective governments of the world pass an act designed to regulate all superhuman
         activity. This polarizes opinion amongst the Avengers, causing two factions
         to side with Iron Man or Captain America, which causes an epic battle between
-        former allies.","popularity":119.669,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
+        former allies.","popularity":113.289,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
         Studios","origin_country":"US"}],"production_countries":[{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"2016-04-27","revenue":1153337496,"runtime":147,"spoken_languages":[{"english_name":"Romanian","iso_639_1":"ro","name":"Română"},{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"German","iso_639_1":"de","name":"Deutsch"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"}],"status":"Released","tagline":"United
-        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.437,"vote_count":20338}'
-  recorded_at: Fri, 14 Oct 2022 17:06:50 GMT
+        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.437,"vote_count":20449}'
+  recorded_at: Thu, 17 Nov 2022 16:56:04 GMT
 recorded_with: VCR 6.1.0
