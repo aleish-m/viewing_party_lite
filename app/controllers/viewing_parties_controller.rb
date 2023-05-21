@@ -11,9 +11,9 @@ class ViewingPartiesController < ApplicationController
   def create
     user = current_user
     movie = MovieFacade.movie_data(params[:movie_id])
-
     party = Party.new(party_params)
     users = User.all.where.not(id: user.id)
+    
     if party.save
       users.each do |user|
         if user_params[:"#{user.name}"] != ' '
