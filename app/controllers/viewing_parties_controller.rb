@@ -16,7 +16,7 @@ class ViewingPartiesController < ApplicationController
 
     if party.save
       guests.each do |guest|
-        if !friend_params[:"#{guest.name}"].blank?
+        unless friend_params[:"#{guest.name}"].blank?
           UserParty.create(party_id: party.id,
                            user_id: friend_params[:"#{guest.name}"])
         end
@@ -32,7 +32,7 @@ class ViewingPartiesController < ApplicationController
   private
 
   def friend_params
-    friends_names = User.all.filter_map{|friend| friend.name if friend.id != params[:host_id].to_i}
+    friends_names = User.all.filter_map { |friend| friend.name if friend.id != params[:host_id].to_i }
     params.permit(friends_names)
   end
 
