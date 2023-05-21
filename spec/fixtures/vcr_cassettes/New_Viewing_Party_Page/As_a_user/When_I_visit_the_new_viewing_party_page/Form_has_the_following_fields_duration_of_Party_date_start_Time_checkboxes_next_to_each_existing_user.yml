@@ -25,36 +25,36 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 04 Jan 2023 18:01:02 GMT
+      - Sun, 21 May 2023 06:05:31 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=23223
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 135c09591ed48adbff648f8b4e4448224ed50b7b
+      - 5ff39b7999675012047166161d85d62a
       X-Memc-Age:
-      - '10545'
+      - '20503'
       X-Memc-Expires:
-      - '5605'
+      - '3790'
       Etag:
-      - W/"fa63fcab78085a420e742f3bd15b76c5"
+      - W/"6f1982562c4c994f61d9ab5704fcf11d"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 cf7db6af8b8a86ebeb9fc938221e81da.cloudfront.net (CloudFront)
+      - 1.1 cddde15c11afac53ac9fe7978dcfecd6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - D3pqsdgbkFovHdiHXfFqLuWeuTS0oLkpcS9uDtq41YCc_mD3rvUnjw==
+      - OUtIJd_I0sBAnwWYtkiA_iON1OjOmDt8TQKiXoC47MmuZ1ih6C9AYg==
       Age:
-      - '27'
+      - '25'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg","belongs_to_collection":{"id":131295,"name":"Captain
@@ -64,11 +64,11 @@ http_interactions:
         collective governments of the world pass an act designed to regulate all superhuman
         activity. This polarizes opinion amongst the Avengers, causing two factions
         to side with Iron Man or Captain America, which causes an epic battle between
-        former allies.","popularity":88.352,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
+        former allies.","popularity":68.961,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
         Studios","origin_country":"US"}],"production_countries":[{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"2016-04-27","revenue":1153337496,"runtime":147,"spoken_languages":[{"english_name":"Romanian","iso_639_1":"ro","name":"Română"},{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"German","iso_639_1":"de","name":"Deutsch"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"}],"status":"Released","tagline":"United
-        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.438,"vote_count":20631}'
-  recorded_at: Wed, 04 Jan 2023 18:01:29 GMT
+        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.44,"vote_count":21098}'
+  recorded_at: Sun, 21 May 2023 06:05:57 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
@@ -94,44 +94,44 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 04 Jan 2023 18:01:03 GMT
+      - Sun, 21 May 2023 06:05:32 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=24324
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 82c1a0020867427996ad31593b14e1e0a9b8aa3a
+      - 4c84f3204ada26fdd229b9f215955d6f
       X-Memc-Age:
-      - '8128'
+      - '14980'
       X-Memc-Expires:
-      - '9133'
+      - '9863'
       Etag:
-      - W/"e902829c7e75933040fa05f638b705c9"
+      - W/"9e5f2360176c3bc825b800fb8c90b758"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 5d351175d5947d478733fbecdab866f6.cloudfront.net (CloudFront)
+      - 1.1 9cefde3a3c84cc779d3c26a39c2e4430.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - RH9O9spzmIpR46iJk5_oAjZkOfJTlygnQT3UsZstyYUZ38VWjBLbdQ==
+      - iPoJ74wC65SfQIg7f7FPb9_2HVTbJlVF8rCoIk_tabqtJFlhQWTmHA==
       Age:
-      - '27'
+      - '26'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":10749,"name":"Romance"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
         paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
-        involving the death of a co-worker, an affair and much more.","popularity":32.764,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Shadows
-        in Paradise","video":false,"vote_average":7.271,"vote_count":207}'
-  recorded_at: Wed, 04 Jan 2023 18:01:30 GMT
+        involving the death of a co-worker, an affair and much more.","popularity":5.386,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"}],"status":"Released","tagline":"","title":"Shadows
+        in Paradise","video":false,"vote_average":7.2,"vote_count":270}'
+  recorded_at: Sun, 21 May 2023 06:05:58 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/271110?api_key=<API Key>&language=en-US
@@ -157,36 +157,36 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 04 Jan 2023 18:01:02 GMT
+      - Sun, 21 May 2023 06:05:31 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=23223
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 135c09591ed48adbff648f8b4e4448224ed50b7b
+      - 5ff39b7999675012047166161d85d62a
       X-Memc-Age:
-      - '10545'
+      - '20503'
       X-Memc-Expires:
-      - '5605'
+      - '3790'
       Etag:
-      - W/"fa63fcab78085a420e742f3bd15b76c5"
+      - W/"6f1982562c4c994f61d9ab5704fcf11d"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 f6992241dd15e99fe1ce21d807856f16.cloudfront.net (CloudFront)
+      - 1.1 045f1e1f031241f3808c557a2b5d6b0a.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - atvg193uMDBD5gQ4ZFSInwxNsQrI1acR-jSofgUGcXZ3FL7KQkSdgg==
+      - kQgpOuRikLBhLxZ9H_u8tR7EEfjPUxMrqQRdo2zYSpk3pYvUg0bdbg==
       Age:
-      - '28'
+      - '26'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg","belongs_to_collection":{"id":131295,"name":"Captain
@@ -196,9 +196,9 @@ http_interactions:
         collective governments of the world pass an act designed to regulate all superhuman
         activity. This polarizes opinion amongst the Avengers, causing two factions
         to side with Iron Man or Captain America, which causes an epic battle between
-        former allies.","popularity":88.352,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
+        former allies.","popularity":68.961,"poster_path":"/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg","production_companies":[{"id":420,"logo_path":"/hUzeosd33nzE5MCNsZxCGEKTXaQ.png","name":"Marvel
         Studios","origin_country":"US"}],"production_countries":[{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"2016-04-27","revenue":1153337496,"runtime":147,"spoken_languages":[{"english_name":"Romanian","iso_639_1":"ro","name":"Română"},{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"German","iso_639_1":"de","name":"Deutsch"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"}],"status":"Released","tagline":"United
-        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.438,"vote_count":20631}'
-  recorded_at: Wed, 04 Jan 2023 18:01:30 GMT
+        we stand. Divided we fall.","title":"Captain America: Civil War","video":false,"vote_average":7.44,"vote_count":21098}'
+  recorded_at: Sun, 21 May 2023 06:05:58 GMT
 recorded_with: VCR 6.1.0

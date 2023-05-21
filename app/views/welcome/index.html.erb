@@ -1,7 +1,8 @@
 <div id="page-title">
   <% if session[:user_id].nil? %>
-    <center><%= button_to 'Create an Account', new_register_path, method: :get  %><br>
+    <center><%= button_to 'Create an Account', register_path, method: :get  %><br>
     <center><%= button_to 'Log In', login_path, method: :get  %><br>
+    <center><%= button_to 'Guest Log In', login_path, method: :get  %><br>
   <% else %>
     <center><%= button_to 'Log Out', login_path, method: :delete  %><br>
   <% end %>

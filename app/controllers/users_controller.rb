@@ -15,7 +15,7 @@ class UsersController < ApplicationController
       redirect_to dashboard_path
     else
       flash.alert = @user.errors.full_messages.to_sentence
-      redirect_to new_register_path
+      redirect_to register_path
     end
   end
 
