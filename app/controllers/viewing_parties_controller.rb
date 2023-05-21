@@ -1,6 +1,6 @@
 class ViewingPartiesController < ApplicationController
   before_action :require_user
-  
+
   def new
     @user = current_user
     @movie = MovieFacade.movie_data(params[:movie_id])
@@ -12,13 +12,13 @@ class ViewingPartiesController < ApplicationController
     user = current_user
     movie = MovieFacade.movie_data(params[:movie_id])
     party = Party.new(party_params)
-    users = User.all.where.not(id: user.id)
-    
+    guests = User.all.where.not(id: user.id)
+
     if party.save
-      users.each do |user|
-        if user_params[:"#{user.name}"] != ' '
+      guests.each do |guest|
+        if !friend_params[:"#{guest.name}"].blank?
           UserParty.create(party_id: party.id,
-                           user_id: user_params[:"#{user.name}"])
+                           user_id: friend_params[:"#{guest.name}"])
         end
       end
       UserParty.create(party_id: party.id, user_id: user.id)
@@ -31,10 +31,9 @@ class ViewingPartiesController < ApplicationController
 
   private
 
-  def user_params
-    users = User.all.where.not(id: params[:user_id])
-    user_names = users.map { |user| user.name }
-    params.permit(user_names)
+  def friend_params
+    friends_names = User.all.filter_map{|friend| friend.name if friend.id != params[:host_id].to_i}
+    params.permit(friends_names)
   end
 
   def party_params
