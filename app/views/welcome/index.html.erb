@@ -2,7 +2,7 @@
   <% if session[:user_id].nil? %>
     <center><%= button_to 'Create an Account', register_path, method: :get  %><br>
     <center><%= button_to 'Log In', login_path, method: :get  %><br>
-    <center><%= button_to 'Guest Log In', login_path, method: :get  %><br>
+    <center><%= button_to 'Guest Log In', login_path, method: :post, params: {email: 'test1@mail.com', password: 'test123'} %><br>
   <% else %>
     <center><%= button_to 'Log Out', login_path, method: :delete  %><br>
   <% end %>
