@@ -1,17 +1,19 @@
-<center> <div id="page-title">
-  <h3> Discover Movies </h3> <br>
-</div>
+<center> 
+  <div id="page-title">
+    <h3> Discover Movies </h3> <br>
+  </div>
 
-<div id="movie-search">
-  <%= form_with url: movies_path, method: :get, local: true do |f| %>
-    <%= f.text_field :q, placeholder: 'Search by Movie Title' %>
-    <%= f.submit 'Find Movies' %>
-  <% end %>
-  <br>
-  <p> OR </p>
-  <br>
-</div>
+  <div id="movie-search">
+    <%= form_with url: movies_path, method: :get, local: true do |f| %>
+      <%= f.text_field :q, placeholder: 'Search by Movie Title' %>
+      <%= f.submit 'Find Movies' %>
+    <% end %>
+    <br>
+    <p> OR </p>
+    <br>
+  </div>
 
-<div id="action_options">
-  <%= button_to "Find Top Rated Movies", movies_path, params: {query: 'top_rated'}, method: :get %> <br>
-</div> </center>
+  <div id="action_options">
+    <%= button_to "Find Top Rated Movies", movies_path, params: {query: 'top_rated'}, method: :get %> <br>
+  </div> 
+</center>
