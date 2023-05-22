@@ -53,7 +53,7 @@ RSpec.describe 'welcome page', type: :feature do
       end
 
       it 'has a section for existing users where each users name and email is listed' do
-        expect(page).to have_content('Existing Users')
+        expect(page).to have_content('Current Users')
 
         within '#user-0' do
           expect(page).to have_content("#{@user_1.name}")

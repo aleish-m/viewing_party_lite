@@ -8,7 +8,7 @@ RSpec.describe 'User Registration Page' do
 
         fill_in 'Name', with: 'Melissa'
         fill_in 'Email', with: 'melissa.j@aol.com'
-        fill_in 'Password:', with: 'password'
+        fill_in 'Password', with: 'password'
         fill_in 'Confirm Password', with: 'password'
 
         click_button 'Register'
@@ -23,7 +23,7 @@ RSpec.describe 'User Registration Page' do
 
         fill_in 'Name', with: 'Jane'
         fill_in 'Email', with: 'Jane.doe@aol.com'
-        fill_in 'Password:', with: 'password'
+        fill_in 'Password', with: 'password'
         fill_in 'Confirm Password', with: 'password'
 
         click_button 'Register'
@@ -38,7 +38,7 @@ RSpec.describe 'User Registration Page' do
 
         fill_in 'Name', with: 'Jane'
         fill_in 'Email', with: 'Jane.doe@aol.com'
-        fill_in 'Password:', with: 'password'
+        fill_in 'Password', with: 'password'
         fill_in 'Confirm Password', with: 'password2'
 
         click_button 'Register'
