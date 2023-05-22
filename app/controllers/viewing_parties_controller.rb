@@ -15,13 +15,12 @@ class ViewingPartiesController < ApplicationController
     guests = User.all.where.not(id: user.id)
 
     if party.save
+      party.users << user
       guests.each do |guest|
         unless friend_params[:"#{guest.name}"].blank?
-          UserParty.create(party_id: party.id,
-                           user_id: friend_params[:"#{guest.name}"])
+          party.users << guest
         end
       end
-      UserParty.create(party_id: party.id, user_id: user.id)
       redirect_to dashboard_path
     else
       flash.alert = party.errors.full_messages.to_sentence
