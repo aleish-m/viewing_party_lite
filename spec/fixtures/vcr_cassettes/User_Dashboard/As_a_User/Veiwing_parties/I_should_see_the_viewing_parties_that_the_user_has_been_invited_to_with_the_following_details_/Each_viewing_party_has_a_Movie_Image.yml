@@ -25,43 +25,45 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Tue, 25 Oct 2022 22:23:09 GMT
+      - Sun, 21 May 2023 06:05:47 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=27989
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
+      - 60276a15edb5e38ff5f8a33b713e673f
       X-Memc-Age:
-      - '7051'
+      - '6260'
       X-Memc-Expires:
-      - '9966'
+      - '16551'
       Etag:
-      - W/"ae8022443bfc8e39ec6b338b9efb3ed0"
+      - W/"363bf01a57ccb3ef074ad412937edf45"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 025e84e972a461c1dd140ac5fbbbd0aa.cloudfront.net (CloudFront)
+      - 1.1 2ad801a60bd36fbeb6a62fab7eabe330.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - 5perBvEiSpyYgoAem4SbMmx7j7SDSY1GRG26gP6tn2wmNALSSMbxzA==
+      - G-Zm0zhkd5G_G4YrBois2K1dHdWd01vo0hO5ZiPI52vVZYvIcwqoGA==
+      Age:
+      - '2'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
         Kasurinen is a Finnish coal miner whose father has just committed suicide
         and who is framed for a crime he did not commit. In jail, he starts to dream
         about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":13.819,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.929,"vote_count":184}'
-  recorded_at: Tue, 25 Oct 2022 22:23:09 GMT
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 06:05:49 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
@@ -87,43 +89,45 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Tue, 25 Oct 2022 22:23:09 GMT
+      - Sun, 21 May 2023 06:05:47 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=27989
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
+      - 60276a15edb5e38ff5f8a33b713e673f
       X-Memc-Age:
-      - '7051'
+      - '6260'
       X-Memc-Expires:
-      - '9966'
+      - '16551'
       Etag:
-      - W/"ae8022443bfc8e39ec6b338b9efb3ed0"
+      - W/"363bf01a57ccb3ef074ad412937edf45"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 f6992241dd15e99fe1ce21d807856f16.cloudfront.net (CloudFront)
+      - 1.1 ce4b35590464ed34415a13badd946eba.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - U3xJgNDqjsT_OBHV3MAfukJZu4JYVB0ZllNmNLhr77v-U8_Cjxku7A==
+      - kT77dXeaDiQuGWxMITyYNgdz7MT36ZGHmG1nvVNxAKj0jSWMZkyv2g==
+      Age:
+      - '2'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
         Kasurinen is a Finnish coal miner whose father has just committed suicide
         and who is framed for a crime he did not commit. In jail, he starts to dream
         about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":13.819,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.929,"vote_count":184}'
-  recorded_at: Tue, 25 Oct 2022 22:23:09 GMT
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 06:05:49 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
@@ -148,37 +152,35 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:31 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - ec9bad96442473da61ea8ff140b4dad3a3c640b0
+      - da43acce5d4cb7ba51d6e914d337f22f
       X-Memc-Age:
-      - '9535'
+      - '10749'
       X-Memc-Expires:
-      - '8313'
+      - '14138'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=24364
       Etag:
-      - W/"079d063972a19ed31c786037ee28be81"
+      - W/"29db91184859105dd30dc22b73ca3c2a"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
-      - Hit from cloudfront
+      - RefreshHit from cloudfront
       Via:
-      - 1.1 badefad2d1fb92bb4620df1ce11d8c92.cloudfront.net (CloudFront)
+      - 1.1 b7f0c5734a286f56595c1e1b456020a2.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - MOpfsHTuh_gkvwvLbPeIaBoxomLfdRXq59zBafA_noENbGHeUC-SOg==
-      Age:
-      - '18'
+      - AgENM5Db2ixX_wVLHvDT-Flv7KUHToz6sIJ1Q0GzcbWlknYVSxbkEg==
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
@@ -194,9 +196,9 @@ http_interactions:
         combination of fascinating film images and an equally compelling soundtrack
         from Sofa Surfers sets us off on a stunning audiovisual adventure across the
         continents. The film also makes an original contribution to the discussion
-        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":1.388,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
-        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.738,"vote_count":21}'
-  recorded_at: Thu, 17 Nov 2022 16:55:49 GMT
+        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":2.174,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
+        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.708,"vote_count":24}'
+  recorded_at: Sun, 21 May 2023 20:29:36 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
@@ -221,37 +223,35 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:31 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - ec9bad96442473da61ea8ff140b4dad3a3c640b0
+      - da43acce5d4cb7ba51d6e914d337f22f
       X-Memc-Age:
-      - '9535'
+      - '10749'
       X-Memc-Expires:
-      - '8313'
+      - '14138'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=24364
       Etag:
-      - W/"079d063972a19ed31c786037ee28be81"
+      - W/"29db91184859105dd30dc22b73ca3c2a"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 befcfd7ee847a3c890471f27612dbcde.cloudfront.net (CloudFront)
+      - 1.1 cddde15c11afac53ac9fe7978dcfecd6.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - OLpDWHx2KzLfb0XjUpMM-0a03FxM5Q-8KmHDdBZb_2MeVnNCd5ewyg==
-      Age:
-      - '18'
+      - cSjmEPdNaX2i28Fdu901fq0s-acL8uHTsCgM45tfhkSFFlAqEtfkJw==
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
@@ -267,9 +267,9 @@ http_interactions:
         combination of fascinating film images and an equally compelling soundtrack
         from Sofa Surfers sets us off on a stunning audiovisual adventure across the
         continents. The film also makes an original contribution to the discussion
-        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":1.388,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
-        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.738,"vote_count":21}'
-  recorded_at: Thu, 17 Nov 2022 16:55:49 GMT
+        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":2.174,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
+        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.708,"vote_count":24}'
+  recorded_at: Sun, 21 May 2023 20:29:36 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
@@ -294,44 +294,44 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:49 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
+      - 60276a15edb5e38ff5f8a33b713e673f
       X-Memc-Age:
-      - '7878'
+      - '6260'
       X-Memc-Expires:
-      - '6752'
+      - '16551'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=22556
       Etag:
-      - W/"d158c5e64f49bb68ef2f329d31b3cc4d"
+      - W/"363bf01a57ccb3ef074ad412937edf45"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
-      - Miss from cloudfront
+      - RefreshHit from cloudfront
       Via:
-      - 1.1 f9a5caa2a18f480171fad57618db559e.cloudfront.net (CloudFront)
+      - 1.1 23241b9c368643949e3bb1a1ba4e97c2.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - Hq9KRR5cA_3NlS45pWJqMRUD96mwq8_sDtzZQf22FkJso_ig_jse5w==
+      - 8tGCvIlUT8x9hTWouBay3V4PurtaZmILvx9ZmDI6LxV9mqdR92-iPQ==
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
         Kasurinen is a Finnish coal miner whose father has just committed suicide
         and who is framed for a crime he did not commit. In jail, he starts to dream
         about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":10.098,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.914,"vote_count":187}'
-  recorded_at: Thu, 17 Nov 2022 16:55:49 GMT
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 20:29:36 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
@@ -356,35 +356,367 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:49 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
+      - 60276a15edb5e38ff5f8a33b713e673f
       X-Memc-Age:
-      - '7878'
+      - '6260'
       X-Memc-Expires:
-      - '6752'
+      - '16551'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=22556
       Etag:
-      - W/"d158c5e64f49bb68ef2f329d31b3cc4d"
+      - W/"363bf01a57ccb3ef074ad412937edf45"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 d898fedd2c97412525c0a8011787cf32.cloudfront.net (CloudFront)
+      - 1.1 ce4b35590464ed34415a13badd946eba.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - Oeh3EONpJL8bWDneiugr8k-NciL49FZjtl5xdEB96465rDKg1AGuoQ==
+      - gvCCwyzCazZVDSo2wKrhRcepPbi1qSpW4Fjx3RRJLVNPfcmNza4frQ==
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
+        Kasurinen is a Finnish coal miner whose father has just committed suicide
+        and who is framed for a crime he did not commit. In jail, he starts to dream
+        about leaving the country and starting a new life. He escapes from prison
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 20:29:36 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 4c84f3204ada26fdd229b9f215955d6f
+      X-Memc-Age:
+      - '14980'
+      X-Memc-Expires:
+      - '9863'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=27072
+      Etag:
+      - W/"9e5f2360176c3bc825b800fb8c90b758"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - RefreshHit from cloudfront
+      Via:
+      - 1.1 28d79637e27f11e3ab19a9515e273a5a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - 72_oSAbJOLtMRtxdbnIUkVTRBRIb-0-XX5A6uwvxc4CDTNAt-KNSaw==
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":10749,"name":"Romance"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
+        paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
+        involving the death of a co-worker, an affair and much more.","popularity":5.386,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"}],"status":"Released","tagline":"","title":"Shadows
+        in Paradise","video":false,"vote_average":7.2,"vote_count":270}'
+  recorded_at: Sun, 21 May 2023 20:29:36 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 4c84f3204ada26fdd229b9f215955d6f
+      X-Memc-Age:
+      - '14980'
+      X-Memc-Expires:
+      - '9863'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=27072
+      Etag:
+      - W/"9e5f2360176c3bc825b800fb8c90b758"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 b2e880ac67c1fba390623b9fc04bd63a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - YYsjyuiOdXHBK180e5_oR12FZSwcETH1JLrZ_PUZZJrG1uFuz9qGjw==
+      Age:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":10749,"name":"Romance"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
+        paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
+        involving the death of a co-worker, an affair and much more.","popularity":5.386,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"}],"status":"Released","tagline":"","title":"Shadows
+        in Paradise","video":false,"vote_average":7.2,"vote_count":270}'
+  recorded_at: Sun, 21 May 2023 20:29:36 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - da43acce5d4cb7ba51d6e914d337f22f
+      X-Memc-Age:
+      - '10749'
+      X-Memc-Expires:
+      - '14138'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=24364
+      Etag:
+      - W/"29db91184859105dd30dc22b73ca3c2a"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 dc50b0effd72a7b2c19bcb0909cfae82.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - lWr-8yTlte_EckifGI1Pit99qCXZCtug3CTgR7TDvEer4HmxBtmccQ==
+      Age:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
+        in Loops (A Megacities RMX)","overview":"Timo Novotny labels his new project
+        an experimental music documentary film, in a remix of the celebrated film
+        Megacities (1997), a visually refined essay on the hidden faces of several
+        world \"megacities\" by leading Austrian documentarist Michael Glawogger.
+        Novotny complements 30 % of material taken straight from the film (and re-edited)
+        with 70 % as yet unseen footage in which he blends original shots unused by
+        Glawogger with his own sequences (shot by Megacities cameraman Wolfgang Thaler)
+        from Tokyo. Alongside the Japanese metropolis, Life in Loops takes us right
+        into the atmosphere of Mexico City, New York, Moscow and Bombay. This electrifying
+        combination of fascinating film images and an equally compelling soundtrack
+        from Sofa Surfers sets us off on a stunning audiovisual adventure across the
+        continents. The film also makes an original contribution to the discussion
+        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":2.174,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
+        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.708,"vote_count":24}'
+  recorded_at: Sun, 21 May 2023 20:29:37 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - da43acce5d4cb7ba51d6e914d337f22f
+      X-Memc-Age:
+      - '10749'
+      X-Memc-Expires:
+      - '14138'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=24364
+      Etag:
+      - W/"29db91184859105dd30dc22b73ca3c2a"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 d29afc70fc2fdadee440493854714224.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - qJhw-gmEbAPQJwKaQC5A1t39eDAAR8AsLnd3EhJyW8_WJJmrKLngqQ==
+      Age:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
+        in Loops (A Megacities RMX)","overview":"Timo Novotny labels his new project
+        an experimental music documentary film, in a remix of the celebrated film
+        Megacities (1997), a visually refined essay on the hidden faces of several
+        world \"megacities\" by leading Austrian documentarist Michael Glawogger.
+        Novotny complements 30 % of material taken straight from the film (and re-edited)
+        with 70 % as yet unseen footage in which he blends original shots unused by
+        Glawogger with his own sequences (shot by Megacities cameraman Wolfgang Thaler)
+        from Tokyo. Alongside the Japanese metropolis, Life in Loops takes us right
+        into the atmosphere of Mexico City, New York, Moscow and Bombay. This electrifying
+        combination of fascinating film images and an equally compelling soundtrack
+        from Sofa Surfers sets us off on a stunning audiovisual adventure across the
+        continents. The film also makes an original contribution to the discussion
+        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":2.174,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
+        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.708,"vote_count":24}'
+  recorded_at: Sun, 21 May 2023 20:29:37 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 60276a15edb5e38ff5f8a33b713e673f
+      X-Memc-Age:
+      - '6260'
+      X-Memc-Expires:
+      - '16551'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=22556
+      Etag:
+      - W/"363bf01a57ccb3ef074ad412937edf45"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 23d87d8c2ce38e34462e6c134d187eea.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - YKUeJUWFqPm828pZownvttIQL5O--psnNebUDjZAm7PaIYx19vHlQg==
       Age:
       - '1'
     body:
@@ -393,281 +725,9 @@ http_interactions:
         Kasurinen is a Finnish coal miner whose father has just committed suicide
         and who is framed for a crime he did not commit. In jail, he starts to dream
         about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":10.098,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.914,"vote_count":187}'
-  recorded_at: Thu, 17 Nov 2022 16:55:49 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:35 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 82c1a0020867427996ad31593b14e1e0a9b8aa3a
-      X-Memc-Age:
-      - '1337'
-      X-Memc-Expires:
-      - '15162'
-      Etag:
-      - W/"cc74f711616b71a6c0e1b994c012d958"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 d09fd0ac0a8733df98f134da74eec098.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - KrDxfqR_eNAg1D40sGkTLxtYE88ObODwH84mNWrnZhRaRPTBQlajbw==
-      Age:
-      - '15'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
-        paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
-        involving the death of a co-worker, an affair and much more.","popularity":5.686,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Shadows
-        in Paradise","video":false,"vote_average":7.225,"vote_count":202}'
-  recorded_at: Thu, 17 Nov 2022 16:55:50 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:35 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 82c1a0020867427996ad31593b14e1e0a9b8aa3a
-      X-Memc-Age:
-      - '1337'
-      X-Memc-Expires:
-      - '15162'
-      Etag:
-      - W/"cc74f711616b71a6c0e1b994c012d958"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 d09fd0ac0a8733df98f134da74eec098.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - ChuRB2lm6m3Ly3iLNBSLNmPKEx21_pfeJhVMQT_2Z56kax49ti5mdA==
-      Age:
-      - '15'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
-        paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
-        involving the death of a co-worker, an affair and much more.","popularity":5.686,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Shadows
-        in Paradise","video":false,"vote_average":7.225,"vote_count":202}'
-  recorded_at: Thu, 17 Nov 2022 16:55:50 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:31 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - ec9bad96442473da61ea8ff140b4dad3a3c640b0
-      X-Memc-Age:
-      - '9535'
-      X-Memc-Expires:
-      - '8313'
-      Etag:
-      - W/"079d063972a19ed31c786037ee28be81"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 f6992241dd15e99fe1ce21d807856f16.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - TsAkpDDI4iJAL7PF56A9OaF1pA7FlkbFTUp8fuPHPGuEA09ULiOU7g==
-      Age:
-      - '19'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
-        in Loops (A Megacities RMX)","overview":"Timo Novotny labels his new project
-        an experimental music documentary film, in a remix of the celebrated film
-        Megacities (1997), a visually refined essay on the hidden faces of several
-        world \"megacities\" by leading Austrian documentarist Michael Glawogger.
-        Novotny complements 30 % of material taken straight from the film (and re-edited)
-        with 70 % as yet unseen footage in which he blends original shots unused by
-        Glawogger with his own sequences (shot by Megacities cameraman Wolfgang Thaler)
-        from Tokyo. Alongside the Japanese metropolis, Life in Loops takes us right
-        into the atmosphere of Mexico City, New York, Moscow and Bombay. This electrifying
-        combination of fascinating film images and an equally compelling soundtrack
-        from Sofa Surfers sets us off on a stunning audiovisual adventure across the
-        continents. The film also makes an original contribution to the discussion
-        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":1.388,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
-        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.738,"vote_count":21}'
-  recorded_at: Thu, 17 Nov 2022 16:55:50 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:31 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - ec9bad96442473da61ea8ff140b4dad3a3c640b0
-      X-Memc-Age:
-      - '9535'
-      X-Memc-Expires:
-      - '8313'
-      Etag:
-      - W/"079d063972a19ed31c786037ee28be81"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 d4fb3448d1a8d3229dcf0a89f4bbe7e8.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - V0Fh6oysW3i_px44gdcUULaSl6tGbxna5tFL0YodBAvU_o46L5pwRA==
-      Age:
-      - '19'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
-        in Loops (A Megacities RMX)","overview":"Timo Novotny labels his new project
-        an experimental music documentary film, in a remix of the celebrated film
-        Megacities (1997), a visually refined essay on the hidden faces of several
-        world \"megacities\" by leading Austrian documentarist Michael Glawogger.
-        Novotny complements 30 % of material taken straight from the film (and re-edited)
-        with 70 % as yet unseen footage in which he blends original shots unused by
-        Glawogger with his own sequences (shot by Megacities cameraman Wolfgang Thaler)
-        from Tokyo. Alongside the Japanese metropolis, Life in Loops takes us right
-        into the atmosphere of Mexico City, New York, Moscow and Bombay. This electrifying
-        combination of fascinating film images and an equally compelling soundtrack
-        from Sofa Surfers sets us off on a stunning audiovisual adventure across the
-        continents. The film also makes an original contribution to the discussion
-        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":1.388,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
-        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.738,"vote_count":21}'
-  recorded_at: Thu, 17 Nov 2022 16:55:50 GMT
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 20:29:37 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
@@ -692,35 +752,35 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:49 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
+      - 60276a15edb5e38ff5f8a33b713e673f
       X-Memc-Age:
-      - '7878'
+      - '6260'
       X-Memc-Expires:
-      - '6752'
+      - '16551'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=22556
       Etag:
-      - W/"d158c5e64f49bb68ef2f329d31b3cc4d"
+      - W/"363bf01a57ccb3ef074ad412937edf45"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 05fe6f95b77eb54d0691950915c27264.cloudfront.net (CloudFront)
+      - 1.1 e158a5cd644f102abc630a9f56b59d78.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - PGl_Id6lg1LRuXPFT1Nua-C9uN3gAhXvfdIYUMMBpUDPtcc3_ooGdg==
+      - SqZf_LgomT2PzSMR7M8EqAYOPAij-i8ftcihgDgJES9z0hvtqucUNw==
       Age:
       - '1'
     body:
@@ -729,9 +789,208 @@ http_interactions:
         Kasurinen is a Finnish coal miner whose father has just committed suicide
         and who is framed for a crime he did not commit. In jail, he starts to dream
         about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":10.098,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.914,"vote_count":187}'
-  recorded_at: Thu, 17 Nov 2022 16:55:50 GMT
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 20:29:37 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 4c84f3204ada26fdd229b9f215955d6f
+      X-Memc-Age:
+      - '14980'
+      X-Memc-Expires:
+      - '9863'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=27072
+      Etag:
+      - W/"9e5f2360176c3bc825b800fb8c90b758"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 e4ca364cc5959e3bf697ae231c5b56b0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - 91k_gwNwK7zX_yDZTrfadZhQKsRKsAL68m0YjoV9zpke2srxPvzaEg==
+      Age:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":10749,"name":"Romance"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
+        paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
+        involving the death of a co-worker, an affair and much more.","popularity":5.386,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"}],"status":"Released","tagline":"","title":"Shadows
+        in Paradise","video":false,"vote_average":7.2,"vote_count":270}'
+  recorded_at: Sun, 21 May 2023 20:29:37 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 4c84f3204ada26fdd229b9f215955d6f
+      X-Memc-Age:
+      - '14980'
+      X-Memc-Expires:
+      - '9863'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=27072
+      Etag:
+      - W/"9e5f2360176c3bc825b800fb8c90b758"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 cddde15c11afac53ac9fe7978dcfecd6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - eD6qGvt4JRy4BNDb4r0tU48d3Pxs3mi4PfOGdoRMSyL0MCz3nzmpIA==
+      Age:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":10749,"name":"Romance"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
+        paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
+        involving the death of a co-worker, an affair and much more.","popularity":5.386,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"}],"status":"Released","tagline":"","title":"Shadows
+        in Paradise","video":false,"vote_average":7.2,"vote_count":270}'
+  recorded_at: Sun, 21 May 2023 20:29:37 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - da43acce5d4cb7ba51d6e914d337f22f
+      X-Memc-Age:
+      - '10749'
+      X-Memc-Expires:
+      - '14138'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=24364
+      Etag:
+      - W/"29db91184859105dd30dc22b73ca3c2a"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 9cefde3a3c84cc779d3c26a39c2e4430.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - Z8xWhIo2grXcYptxPi1_p6npLeciAwlE0bTvC0RROLjeYnFy5Uky9g==
+      Age:
+      - '1'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
+        in Loops (A Megacities RMX)","overview":"Timo Novotny labels his new project
+        an experimental music documentary film, in a remix of the celebrated film
+        Megacities (1997), a visually refined essay on the hidden faces of several
+        world \"megacities\" by leading Austrian documentarist Michael Glawogger.
+        Novotny complements 30 % of material taken straight from the film (and re-edited)
+        with 70 % as yet unseen footage in which he blends original shots unused by
+        Glawogger with his own sequences (shot by Megacities cameraman Wolfgang Thaler)
+        from Tokyo. Alongside the Japanese metropolis, Life in Loops takes us right
+        into the atmosphere of Mexico City, New York, Moscow and Bombay. This electrifying
+        combination of fascinating film images and an equally compelling soundtrack
+        from Sofa Surfers sets us off on a stunning audiovisual adventure across the
+        continents. The film also makes an original contribution to the discussion
+        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":2.174,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
+        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.708,"vote_count":24}'
+  recorded_at: Sun, 21 May 2023 20:29:37 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
@@ -756,35 +1015,35 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:49 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
+      - 60276a15edb5e38ff5f8a33b713e673f
       X-Memc-Age:
-      - '7878'
+      - '6260'
       X-Memc-Expires:
-      - '6752'
+      - '16551'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=22556
       Etag:
-      - W/"d158c5e64f49bb68ef2f329d31b3cc4d"
+      - W/"363bf01a57ccb3ef074ad412937edf45"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 9eceed849af3c369b60088e6ae5ad92c.cloudfront.net (CloudFront)
+      - 1.1 9cefde3a3c84cc779d3c26a39c2e4430.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - GSPhqSpZXMVU2ggwsY-_3QFlaOpZe3H5_7e3O9Mfm0M9DNk-kdYkxg==
+      - 41TlPEnOl3g7GdWyNybd7EP4OBOmOJoaj_aPGlkBc1bOiBfIwgq05A==
       Age:
       - '1'
     body:
@@ -793,9 +1052,9 @@ http_interactions:
         Kasurinen is a Finnish coal miner whose father has just committed suicide
         and who is framed for a crime he did not commit. In jail, he starts to dream
         about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":10.098,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.914,"vote_count":187}'
-  recorded_at: Thu, 17 Nov 2022 16:55:50 GMT
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 20:29:37 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
@@ -820,48 +1079,48 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:35 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 82c1a0020867427996ad31593b14e1e0a9b8aa3a
+      - 4c84f3204ada26fdd229b9f215955d6f
       X-Memc-Age:
-      - '1337'
+      - '14980'
       X-Memc-Expires:
-      - '15162'
+      - '9863'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=27072
       Etag:
-      - W/"cc74f711616b71a6c0e1b994c012d958"
+      - W/"9e5f2360176c3bc825b800fb8c90b758"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 3fddcbe99f78632bf14e5e80e6c14058.cloudfront.net (CloudFront)
+      - 1.1 ce4b35590464ed34415a13badd946eba.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - ezEQJXBWHFy85801tKxLyn82bNGCoirGa8YWAsKaNgy9NGgaB52Y2w==
+      - yKTzagizBc_LN7BGiKqDESfnZm1hU6yv3ffiXXlA7QK8cKvbOmbN7w==
       Age:
-      - '15'
+      - '2'
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
+      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":10749,"name":"Romance"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
         paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
-        involving the death of a co-worker, an affair and much more.","popularity":5.686,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Shadows
-        in Paradise","video":false,"vote_average":7.225,"vote_count":202}'
-  recorded_at: Thu, 17 Nov 2022 16:55:50 GMT
+        involving the death of a co-worker, an affair and much more.","popularity":5.386,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"}],"status":"Released","tagline":"","title":"Shadows
+        in Paradise","video":false,"vote_average":7.2,"vote_count":270}'
+  recorded_at: Sun, 21 May 2023 20:29:38 GMT
 - request:
     method: get
-    uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
+    uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
     body:
       encoding: US-ASCII
       string: ''
@@ -883,45 +1142,174 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:35 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 82c1a0020867427996ad31593b14e1e0a9b8aa3a
+      - 60276a15edb5e38ff5f8a33b713e673f
       X-Memc-Age:
-      - '1337'
+      - '6260'
       X-Memc-Expires:
-      - '15162'
+      - '16551'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=22556
       Etag:
-      - W/"cc74f711616b71a6c0e1b994c012d958"
+      - W/"363bf01a57ccb3ef074ad412937edf45"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 6b1026dc8b63f06fce4b4aec8b9a03d6.cloudfront.net (CloudFront)
+      - 1.1 48ea53c7edffa2cdbdc32f7d94966344.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - Hv0g0iFo3jK9PGVWNatVVQtHMgkcF2ju4UOpRbxc2b8LKRrEZdNGtA==
+      - HGpbgFBGOabBqC99e0NlwFtvjz7EIDbdc4sr3So_xczdjNhCbJtTvg==
       Age:
-      - '15'
+      - '2'
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
-        paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
-        involving the death of a co-worker, an affair and much more.","popularity":5.686,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Shadows
-        in Paradise","video":false,"vote_average":7.225,"vote_count":202}'
-  recorded_at: Thu, 17 Nov 2022 16:55:50 GMT
+      string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
+        Kasurinen is a Finnish coal miner whose father has just committed suicide
+        and who is framed for a crime he did not commit. In jail, he starts to dream
+        about leaving the country and starting a new life. He escapes from prison
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 20:29:38 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 60276a15edb5e38ff5f8a33b713e673f
+      X-Memc-Age:
+      - '6260'
+      X-Memc-Expires:
+      - '16551'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=22556
+      Etag:
+      - W/"363bf01a57ccb3ef074ad412937edf45"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 e4ca364cc5959e3bf697ae231c5b56b0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - BKOUq2uifSwnInoGIzSU-KoSI6-G8V2HAbqd9a92D6vPg5qorPXacg==
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
+        Kasurinen is a Finnish coal miner whose father has just committed suicide
+        and who is framed for a crime he did not commit. In jail, he starts to dream
+        about leaving the country and starting a new life. He escapes from prison
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 20:29:38 GMT
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - openresty
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 60276a15edb5e38ff5f8a33b713e673f
+      X-Memc-Age:
+      - '6260'
+      X-Memc-Expires:
+      - '16551'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=22556
+      Etag:
+      - W/"363bf01a57ccb3ef074ad412937edf45"
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 e1b5abb53c407f0a057625c46693461c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - y3OMqICyMrlA74EiWLsZoyxNxGG7VBdMOe42rg3yysn6MhLAswQLRA==
+      Age:
+      - '2'
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
+        Kasurinen is a Finnish coal miner whose father has just committed suicide
+        and who is framed for a crime he did not commit. In jail, he starts to dream
+        about leaving the country and starting a new life. He escapes from prison
+        but things don''t go as planned...","popularity":8.492,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":7.054,"vote_count":249}'
+  recorded_at: Sun, 21 May 2023 20:29:38 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
@@ -946,37 +1334,37 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:31 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - ec9bad96442473da61ea8ff140b4dad3a3c640b0
+      - da43acce5d4cb7ba51d6e914d337f22f
       X-Memc-Age:
-      - '9535'
+      - '10749'
       X-Memc-Expires:
-      - '8313'
+      - '14138'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=24364
       Etag:
-      - W/"079d063972a19ed31c786037ee28be81"
+      - W/"29db91184859105dd30dc22b73ca3c2a"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 16d72e0791ff01fc4470d27fc024527a.cloudfront.net (CloudFront)
+      - 1.1 e158a5cd644f102abc630a9f56b59d78.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - Mk0Ggq3LBj4d93bLtO4oHtBAQq-1aXw8HypDG5bx06o7wpcJ5u7EuQ==
+      - 3s6KFmou9H0AWVBRmeZ0a_fB2GBvI3CzmfXaMJ-XOtQTbLTbdEje1g==
       Age:
-      - '20'
+      - '2'
     body:
       encoding: UTF-8
       string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
@@ -992,73 +1380,9 @@ http_interactions:
         combination of fascinating film images and an equally compelling soundtrack
         from Sofa Surfers sets us off on a stunning audiovisual adventure across the
         continents. The film also makes an original contribution to the discussion
-        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":1.388,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
-        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.738,"vote_count":21}'
-  recorded_at: Thu, 17 Nov 2022 16:55:51 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:49 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
-      X-Memc-Age:
-      - '7878'
-      X-Memc-Expires:
-      - '6752'
-      Etag:
-      - W/"d158c5e64f49bb68ef2f329d31b3cc4d"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 f0a2a95cb4d25b2414a9c1a7a754943e.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - A6Y0QSJCauDaEVOkcE-dvC7sHDdH_LtBmEG9vWOPhmZG0gGm-5EuJw==
-      Age:
-      - '2'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
-        Kasurinen is a Finnish coal miner whose father has just committed suicide
-        and who is framed for a crime he did not commit. In jail, he starts to dream
-        about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":10.098,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.914,"vote_count":187}'
-  recorded_at: Thu, 17 Nov 2022 16:55:51 GMT
+        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":2.174,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
+        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.708,"vote_count":24}'
+  recorded_at: Sun, 21 May 2023 20:29:38 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
@@ -1083,371 +1407,43 @@ http_interactions:
       - chunked
       Connection:
       - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:35 GMT
       Server:
       - openresty
-      Cache-Control:
-      - public, max-age=28800
       X-Memc:
       - HIT
       X-Memc-Key:
-      - 82c1a0020867427996ad31593b14e1e0a9b8aa3a
+      - 4c84f3204ada26fdd229b9f215955d6f
       X-Memc-Age:
-      - '1337'
+      - '14980'
       X-Memc-Expires:
-      - '15162'
+      - '9863'
+      Date:
+      - Sun, 21 May 2023 20:29:36 GMT
+      Cache-Control:
+      - public, max-age=27072
       Etag:
-      - W/"cc74f711616b71a6c0e1b994c012d958"
+      - W/"9e5f2360176c3bc825b800fb8c90b758"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Hit from cloudfront
       Via:
-      - 1.1 9b688924e5b0f0b5e4c639d19cb145f0.cloudfront.net (CloudFront)
+      - 1.1 ce4b35590464ed34415a13badd946eba.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - ewnfZ8bvx6nTgMQC9r6n3f-JVGkrl4vUDIfVi-p1FXxJ96GUY3p5Zw==
+      - w6Sf8XhHK6bi8uynpAJv6rwqd2pn2aI-wRf1R4vMplW_hO3A7iEwOw==
       Age:
-      - '16'
+      - '2'
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
+      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":10749,"name":"Romance"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
         paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
-        involving the death of a co-worker, an affair and much more.","popularity":5.686,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Shadows
-        in Paradise","video":false,"vote_average":7.225,"vote_count":202}'
-  recorded_at: Thu, 17 Nov 2022 16:55:51 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:49 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
-      X-Memc-Age:
-      - '7878'
-      X-Memc-Expires:
-      - '6752'
-      Etag:
-      - W/"d158c5e64f49bb68ef2f329d31b3cc4d"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 786e78cb5cbe5eadde8b1e6951bf8a60.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - SF1SiqUw4ng4_1bOb_K0Q0LmVRmRLvsB0D0QityXvnIEk2VI4arxqw==
-      Age:
-      - '2'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
-        Kasurinen is a Finnish coal miner whose father has just committed suicide
-        and who is framed for a crime he did not commit. In jail, he starts to dream
-        about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":10.098,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.914,"vote_count":187}'
-  recorded_at: Thu, 17 Nov 2022 16:55:51 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:49 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
-      X-Memc-Age:
-      - '7878'
-      X-Memc-Expires:
-      - '6752'
-      Etag:
-      - W/"d158c5e64f49bb68ef2f329d31b3cc4d"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 befcfd7ee847a3c890471f27612dbcde.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - B2Fw4-lNEeXNb3KiDLRuQnXX9vBIL63Hts5sHaxlFl8DgkQ6ZylJCw==
-      Age:
-      - '2'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
-        Kasurinen is a Finnish coal miner whose father has just committed suicide
-        and who is framed for a crime he did not commit. In jail, he starts to dream
-        about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":10.098,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.914,"vote_count":187}'
-  recorded_at: Thu, 17 Nov 2022 16:55:51 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/2?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:49 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 511f57fe9dfe5dddca08773dca06d854df439acd
-      X-Memc-Age:
-      - '7878'
-      X-Memc-Expires:
-      - '6752'
-      Etag:
-      - W/"d158c5e64f49bb68ef2f329d31b3cc4d"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 5d351175d5947d478733fbecdab866f6.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - Zg5XD2ml0EV21YttP6j5WZo2TiuCxBywtNxovE_bvwIVPpqDtoHePw==
-      Age:
-      - '2'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/hQ4pYsIbP22TMXOUdSfC2mjWrO0.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"}],"homepage":"","id":2,"imdb_id":"tt0094675","original_language":"fi","original_title":"Ariel","overview":"Taisto
-        Kasurinen is a Finnish coal miner whose father has just committed suicide
-        and who is framed for a crime he did not commit. In jail, he starts to dream
-        about leaving the country and starting a new life. He escapes from prison
-        but things don''t go as planned...","popularity":10.098,"poster_path":"/ojDg0PGvs6R9xYFodRct2kdI6wC.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1988-10-21","revenue":0,"runtime":73,"spoken_languages":[{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"}],"status":"Released","tagline":"","title":"Ariel","video":false,"vote_average":6.914,"vote_count":187}'
-  recorded_at: Thu, 17 Nov 2022 16:55:51 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/8?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:31 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - ec9bad96442473da61ea8ff140b4dad3a3c640b0
-      X-Memc-Age:
-      - '9535'
-      X-Memc-Expires:
-      - '8313'
-      Etag:
-      - W/"079d063972a19ed31c786037ee28be81"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 88bce767af5e31f726ade38ea5253bd4.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - 0dikWi-soensdeNR9_vmv0jDgFhRzQh1OKHRVPY5C8XKxlUU0MRxSg==
-      Age:
-      - '20'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":42000,"genres":[{"id":99,"name":"Documentary"}],"homepage":"http://lifeinloops.com","id":8,"imdb_id":"tt0825671","original_language":"en","original_title":"Life
-        in Loops (A Megacities RMX)","overview":"Timo Novotny labels his new project
-        an experimental music documentary film, in a remix of the celebrated film
-        Megacities (1997), a visually refined essay on the hidden faces of several
-        world \"megacities\" by leading Austrian documentarist Michael Glawogger.
-        Novotny complements 30 % of material taken straight from the film (and re-edited)
-        with 70 % as yet unseen footage in which he blends original shots unused by
-        Glawogger with his own sequences (shot by Megacities cameraman Wolfgang Thaler)
-        from Tokyo. Alongside the Japanese metropolis, Life in Loops takes us right
-        into the atmosphere of Mexico City, New York, Moscow and Bombay. This electrifying
-        combination of fascinating film images and an equally compelling soundtrack
-        from Sofa Surfers sets us off on a stunning audiovisual adventure across the
-        continents. The film also makes an original contribution to the discussion
-        on new trends in documentary filmmaking. Written by KARLOVY VARY IFF 2006","popularity":1.388,"poster_path":"/x7Sz339F2oC8mBf0DHCQpKizXaL.jpg","production_companies":[{"id":19123,"logo_path":null,"name":"inLoops","origin_country":""}],"production_countries":[{"iso_3166_1":"AT","name":"Austria"}],"release_date":"2006-01-01","revenue":0,"runtime":80,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Hindi","iso_639_1":"hi","name":"हिन्दी"},{"english_name":"Japanese","iso_639_1":"ja","name":"日本語"},{"english_name":"Russian","iso_639_1":"ru","name":"Pусский"},{"english_name":"Spanish","iso_639_1":"es","name":"Español"}],"status":"Released","tagline":"A
-        Megacities remix.","title":"Life in Loops (A Megacities RMX)","video":false,"vote_average":7.738,"vote_count":21}'
-  recorded_at: Thu, 17 Nov 2022 16:55:51 GMT
-- request:
-    method: get
-    uri: https://api.themoviedb.org/3/movie/3?api_key=<API Key>&language=en-US
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json;charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Date:
-      - Thu, 17 Nov 2022 16:55:35 GMT
-      Server:
-      - openresty
-      Cache-Control:
-      - public, max-age=28800
-      X-Memc:
-      - HIT
-      X-Memc-Key:
-      - 82c1a0020867427996ad31593b14e1e0a9b8aa3a
-      X-Memc-Age:
-      - '1337'
-      X-Memc-Expires:
-      - '15162'
-      Etag:
-      - W/"cc74f711616b71a6c0e1b994c012d958"
-      Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
-      - Origin
-      X-Cache:
-      - Hit from cloudfront
-      Via:
-      - 1.1 88bce767af5e31f726ade38ea5253bd4.cloudfront.net (CloudFront)
-      X-Amz-Cf-Pop:
-      - DEN52-P2
-      Alt-Svc:
-      - h3=":443"; ma=86400
-      X-Amz-Cf-Id:
-      - Qq2iTs4A8r4uT4LQhBHqRJE8McD4WadLeCChM-BrCCdZCzkCDJkQUQ==
-      Age:
-      - '16'
-    body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/l94l89eMmFKh7na2a1u5q67VgNx.jpg","belongs_to_collection":null,"budget":0,"genres":[{"id":18,"name":"Drama"},{"id":35,"name":"Comedy"}],"homepage":"","id":3,"imdb_id":"tt0092149","original_language":"fi","original_title":"Varjoja
-        paratiisissa","overview":"An episode in the life of Nikander, a garbage man,
-        involving the death of a co-worker, an affair and much more.","popularity":5.686,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
-        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"","title":"Shadows
-        in Paradise","video":false,"vote_average":7.225,"vote_count":202}'
-  recorded_at: Thu, 17 Nov 2022 16:55:51 GMT
+        involving the death of a co-worker, an affair and much more.","popularity":5.386,"poster_path":"/nj01hspawPof0mJmlgfjuLyJuRN.jpg","production_companies":[{"id":2303,"logo_path":null,"name":"Villealfa
+        Filmproductions","origin_country":"FI"}],"production_countries":[{"iso_3166_1":"FI","name":"Finland"}],"release_date":"1986-10-17","revenue":0,"runtime":74,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"},{"english_name":"Finnish","iso_639_1":"fi","name":"suomi"},{"english_name":"Swedish","iso_639_1":"sv","name":"svenska"}],"status":"Released","tagline":"","title":"Shadows
+        in Paradise","video":false,"vote_average":7.2,"vote_count":270}'
+  recorded_at: Sun, 21 May 2023 20:29:38 GMT
 recorded_with: VCR 6.1.0

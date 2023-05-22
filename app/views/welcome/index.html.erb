@@ -1,20 +1,31 @@
 <div id="page-title">
   <% if session[:user_id].nil? %>
-    <center><%= button_to 'Create an Account', new_register_path, method: :get  %><br>
-    <center><%= button_to 'Log In', login_path, method: :get  %><br>
+    <center>
+      <%= button_to 'Log In', login_path, method: :get  %>
+      <br>
+      <%= button_to 'Create an Account', register_path, method: :get  %>
+      <br>
+      <%= button_to 'Guest Log In', login_path, method: :post, params: {email: 'guest_test@mail.com', password: 'test123'} %>
+      <br>
+    </center>
   <% else %>
-    <center><%= button_to 'Log Out', login_path, method: :delete  %><br>
+    <center>
+      <br>
+      <%= button_to 'Log Out', login_path, method: :delete  %>
+      <br>
+    </center>
   <% end %>
 </div>
 
 <% if session[:user_id] %>
-  <ul style="center">
-    <h3>Existing Users</h3>
-    <% @users.each_with_index do |user, index| %>
-      <li id="user-<%= index %>">
-        <p>User's name: <%= user.name %></p>
-        <p>User's email: <%= user.email%></p>
-      </li>
-    <% end %>
-  </ul >
+  <center>
+    <ul>
+      <h3>Current Users</h3>
+      <% @users.each_with_index do |user, index| %>
+        <li id="user-<%= index %>">
+          <p><%= user.name %>: <%= user.email%></p>
+        </li>
+      <% end %>
+    </ul >
+  </center>
 <% end %>

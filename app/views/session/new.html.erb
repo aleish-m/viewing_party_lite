@@ -1,18 +1,24 @@
 <div id="page-title">
-<center><br><center><h3>User Login</h3>
+  <center>
+    <h3>User Login</h3>
+  </center>
 </div>
 
 <div id="login">
-<center>
-<%= form_with url: login_path, method: :post, local: true  do |form| %>
-    <p><%= form.label :email, 'Email:' %>
-    <%= form.text_field :email %></p>
-    <p><%= form.label :password, 'Password:' %>
-    <%= form.password_field :password %></p>
-    <p><%= form.submit 'Submit' %></p>
-<% end %></center>
+  <center>
+    <%= form_with url: login_path, method: :post, local: true  do |form| %>
+        <p><%= form.label :email, 'Email:' %>
+        <%= form.text_field :email %></p>
+        <p><%= form.label :password, 'Password:' %>
+        <%= form.password_field :password %></p>
+        <p><%= form.submit 'Submit' %></p>
+    <% end %>
+  </center>
 </div>
 
 <div id = new_user>
-<center><%= button_to 'Create a New User', '/register', method: :get  %><br>
+  <center> 
+    <%= button_to 'Create a New User', register_path, method: :get  %>
+    <br>
+  </center>
 </div>

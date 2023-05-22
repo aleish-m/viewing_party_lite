@@ -1,6 +1,31 @@
 require 'rails_helper'
 
 RSpec.describe 'User Login Page' do
+  describe 'As a Guest' do
+    describe 'When I visit the landing/welcome page' do
+      before :each do
+        guest_user = create(:user, name:"Guest", email:"guest_test@mail.com", password:"test123") 
+      end
+      it 'I see I see 3 buttons: Log-In, Create Account, and Log-In as Guest' do
+        visit root_path
+
+        expect(page).to have_button("Log In")
+        expect(page).to have_button("Create an Account")
+        expect(page).to have_button("Guest Log In")
+
+      end
+
+      it 'I click the "Guest Log In" button I am taken to the Guest Dashboard' do
+        visit root_path
+
+        click_button "Guest Log In"
+
+        expect(current_path).to eq dashboard_path
+        expect(page).to have_content("Guest's Dashboard")
+      end
+    end
+  end
+
   describe 'As a registered user' do
     describe "When I visit the landing page " do
       it "I see a link for 'Log In', When I click on 'Log In' I'm taken to a Log In page" do
@@ -45,7 +70,7 @@ RSpec.describe 'User Login Page' do
         visit login_path
 
         fill_in 'Email', with: "#{@user_1.email}"
-        fill_in 'Password', with: "test2"
+        fill_in 'Password', with: "wrongpw"
 
         click_button "Submit"
 

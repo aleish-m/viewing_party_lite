@@ -6,17 +6,14 @@
       </p>
       <p>
         <%= button_to "Create Viewing Party for #{@movie.title}", new_movie_viewing_party_path(@movie.id), method: :get %>
-      </p></center><br>
+      </p>
+      <br>
     </div>
-      <h4>
-        Vote Average: <%= @movie.rating %>
-      </h4>
-      <h4>
-        Run Time: <%= @movie.runtime_in_hours %>
-      </h4>
-      <h4>
-        Genre(s): <%= @movie.genre_list %>
-      </h4>
+  </center>
+  <h5> Vote Average: <%= @movie.rating %> </h5>
+  <h5> Run Time: <%= @movie.runtime_in_hours %> </h5>
+  <h5> Genre(s): <%= @movie.genre_list %> </h5>
+  <%= image_tag(@movie.image) %>
 </div>
 
 <div id="movie-<%= @movie.id %>-description">
@@ -34,17 +31,18 @@
 
 
 <div id="movie-<%= @movie.id %>-reviews">
-<h4><%= @reviews.count %> Reviews</h4>
-  <ul>
-  <% if !@reviews.empty? %>
-    <% @reviews.each_with_index do |review, index| %>
-      <li>
-        <div id="review-<%= index %>">
-          <p>Author: <%= review.author %></p>
-          <p><%= review.content %></p>
-        </div>
-      </li>
+  <h4><%= @reviews.count %> Reviews</h4>
+    <ul>
+    <% if !@reviews.empty? %>
+      <% @reviews.each_with_index do |review, index| %>
+        <li>
+          <div id="review-<%= index %>">
+            <p>Author: <%= review.author %></p>
+            <p><%= review.content %></p>
+          </div>
+        </li>
+        <hr>
+      <% end %>
     <% end %>
-  <% end %>
-  </ul>
+    </ul>
 </div>

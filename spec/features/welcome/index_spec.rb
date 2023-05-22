@@ -17,7 +17,7 @@ RSpec.describe 'welcome page', type: :feature do
         visit root_path
         expect(page).to have_button('Create an Account')
         click_button('Create an Account')
-        expect(page).to have_current_path(new_register_path)
+        expect(page).to have_current_path(register_path)
       end
 
       it 'does not have a section for existing users' do
@@ -53,7 +53,7 @@ RSpec.describe 'welcome page', type: :feature do
       end
 
       it 'has a section for existing users where each users name and email is listed' do
-        expect(page).to have_content('Existing Users')
+        expect(page).to have_content('Current Users')
 
         within '#user-0' do
           expect(page).to have_content("#{@user_1.name}")

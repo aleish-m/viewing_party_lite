@@ -1,14 +1,18 @@
-<div id="page-title">
-<center><h3><%= @page_title %></h3><br>
-</div>
+<center>
+  <div id="page-title">
+    <h3><%= @page_title %></h3><br>
+  </div>
 
- <div id="action_options">
-<%= button_to "Discover Movies", discover_path, method: :get %></center><br>
-</div>
+  <div id="action_options">
+    <%= button_to "Discover Movies", discover_path, method: :get %>
+    <br>
+  </div>
+</center>
 
 <% @movies.each do |movie| %>
   <div id="movie-<%= movie %>">
-  <h3>Title: <%= link_to "#{movie.title}", movie_path(movie.id) %></h3>
-  <h4>Average Rating: <%= movie.rating %></h4><hr>
+    <h3>Title: <%= link_to "#{movie.title}", movie_path(movie.id) %></h3>
+    <h5>Average Rating: <%= movie.rating %></h5>
+    <hr>
+  </div>
 <% end %>
-</div>

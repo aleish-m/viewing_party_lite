@@ -1,26 +1,33 @@
-<div id="page-title">
-<center><h3><%= @user.name %>'s Dashboard</h3><br>
-</div>
+<center>
+  <div id="page-title">
+    <h3><%= @user.name %>'s Dashboard</h3>
+    <br>
+  </div>
 
-<div id="action_options">
-<%= button_to 'Discover Movies', discover_path, method: :get %><br>
-</div>
+  <div id="action_options">
+    <%= button_to 'Discover Movies', discover_path, method: :get %>
+    <br>
+  </div>
+</center>
 
 <div id="view-parties-<%= @user.id %>">
-  <h4>Viewing Parties</h4></center>
-    
+  <center>
+    <h4>Viewing Parties</h4>
+  </center>
+  <div id="parties-list">
     <% @user.parties.each do |party| %>
       <span id="party-<%= party.id %>">
         <p><%= link_to party.find_title, movie_path(party.movie_id) %></p>
         <p><%= image_tag(party.find_image_url, size: "200x300") %></p>
         <p><%= party.start_date %> <%= party.time %></p>
-        <p>
+        <p> You are: 
           <% if party.host_id == @user.id %>
             <%= "Hosting" %>
           <% else %>
             <%= "Invited - #{party.find_host} is Host" %>
           <% end %>
-        </p>
+        </p> 
+        <br>
         <h3>Guest List:</h3>
           <ul>
             <% party.users.each do |user| %>
@@ -29,5 +36,5 @@
           </ul>
       </span>
     <% end %>
-    
+  </div>
 </div>

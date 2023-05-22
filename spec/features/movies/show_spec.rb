@@ -133,6 +133,22 @@ RSpec.describe 'Movie Detail Page', type: :feature do
           expect(page).to_not have_content("Genre(s): #{@movie_1.genre_list}")
         end
 
+        it 'Movie Poster associated to movie', vcr: { record: :new_episodes } do
+          visit movie_path(@movie_1.id)
+
+          within("#movie-#{@movie_1.id}-details") do
+            expect(page).to have_css("img[src='#{@movie_1.image}']")
+          end
+          expect(page).to_not have_css("img[src='#{@movie_2.image}']")
+
+          visit movie_path(@movie_2.id)
+
+          within("#movie-#{@movie_2.id}-details") do
+            expect(page).to have_css("img[src='#{@movie_2.image}']")
+          end
+          expect(page).to_not have_css("img[src='#{@movie_1.image}']")
+        end
+
         it 'Summary description', :vcr do
           visit movie_path(@movie_1.id)
 

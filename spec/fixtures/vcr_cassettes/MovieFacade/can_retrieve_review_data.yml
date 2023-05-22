@@ -25,38 +25,38 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 17 Nov 2022 16:55:32 GMT
+      - Sun, 21 May 2023 06:05:29 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=21926
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Key:
-      - aae2e4d0c51d1341d99d674354773c0ef58fa984
+      - 7cdeb46c1612d3b578ddb076b1f793d0
       X-Memc-Age:
-      - '3544'
+      - '0'
       X-Memc-Expires:
-      - '12623'
+      - '21926'
       Etag:
-      - W/"1cc09dbd459da8b7ce401206745767bc"
+      - W/"12af838197a056f85b42e60763991119"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 3fddcbe99f78632bf14e5e80e6c14058.cloudfront.net (CloudFront)
+      - 1.1 28d79637e27f11e3ab19a9515e273a5a.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - jdohCrlqk3PFHV5ic6AqSrYh3Eny5aQthL3N415D6wXFFHEpwkkN4Q==
+      - IuIyAFhflwFA1ttRLoRHFFa_m-HKMo6P1Ew8VheRbI6yOuqlNBs7xw==
     body:
       encoding: UTF-8
       string: "{\"id\":271110,\"page\":1,\"results\":[{\"author\":\"Frank Ochieng\",\"author_details\":{\"name\":\"Frank
-        Ochieng\",\"username\":\"Frank Ochieng\",\"avatar_path\":\"/https://www.gravatar.com/avatar/d0204b6265e0cf3cc7cd80809df35ba2.jpg\",\"rating\":null},\"content\":\"Well
+        Ochieng\",\"username\":\"Frank Ochieng\",\"avatar_path\":\"/https://secure.gravatar.com/avatar/d0204b6265e0cf3cc7cd80809df35ba2.jpg\",\"rating\":null},\"content\":\"Well
         another super-sized Marvel Comics superhero saga hits the big screen with
         the selected savior Captain America taking the top billing on the marquee.
         Thus, the pulsating popcorn pleaser **Captain America: Civil War** arrives
@@ -153,7 +153,7 @@ http_interactions:
         Hurt\\r\\n\\r\\nDirected by: Anthony Russo and Joe Russo\\r\\n\\r\\nMPAA Rating:
         PG-13\\r\\n\\r\\nGenre: Superheroes Saga/Action and Adventure/Science Fiction/Fantasy\\r\\n\\r\\nCritic’s
         Rating: *** stars (out of 4 stars)\\r\\n\\r\\n**(c) Frank Ochieng**\",\"created_at\":\"2016-05-07T05:23:13.945Z\",\"id\":\"572d7bc1c3a3680fdb001d69\",\"updated_at\":\"2021-06-23T15:57:47.427Z\",\"url\":\"https://www.themoviedb.org/review/572d7bc1c3a3680fdb001d69\"},{\"author\":\"Austin
-        Singleton\",\"author_details\":{\"name\":\"Austin Singleton\",\"username\":\"hweird1\",\"avatar_path\":\"/https://www.gravatar.com/avatar/9bb138661ab394372b93b23fddb57bda.jpg\",\"rating\":null},\"content\":\"The
+        Singleton\",\"author_details\":{\"name\":\"Austin Singleton\",\"username\":\"hweird1\",\"avatar_path\":\"/https://secure.gravatar.com/avatar/9bb138661ab394372b93b23fddb57bda.jpg\",\"rating\":null},\"content\":\"The
         Russo Brother's and Marvel did it again! Read my full review here!\\r\\n\\r\\nhttp://www.hweird1reviews.com/allreviews/captain-america-civil-war-review\",\"created_at\":\"2016-08-11T21:38:36.922Z\",\"id\":\"57acf05cc3a36820750001c8\",\"updated_at\":\"2021-06-23T15:57:50.181Z\",\"url\":\"https://www.themoviedb.org/review/57acf05cc3a36820750001c8\"},{\"author\":\"Reno\",\"author_details\":{\"name\":\"Reno\",\"username\":\"Rangan\",\"avatar_path\":\"/6ZpVUJzqXMzH35VprEtnX0sNI3.jpg\",\"rating\":8.0},\"content\":\"**The
         heroes're divided and so the fans!**\\r\\n\\r\\nBefore watching this I thought
         what the Avengers are doing here. I believed they got the title wrong. Once
@@ -179,7 +179,7 @@ http_interactions:
         like dividing the fans and what this film has been a serious damage. I hope
         the fans won't take it seriously.\\r\\n\\r\\n_8/10_\",\"created_at\":\"2016-10-04T20:21:05.083Z\",\"id\":\"57f40f319251417fe300171a\",\"updated_at\":\"2021-06-23T15:57:51.523Z\",\"url\":\"https://www.themoviedb.org/review/57f40f319251417fe300171a\"},{\"author\":\"Per
         Gunnar Jonsson\",\"author_details\":{\"name\":\"Per Gunnar Jonsson\",\"username\":\"Dark
-        Jedi\",\"avatar_path\":\"/https://www.gravatar.com/avatar/cbabaea0fa98692d00130498d7ac5d7c.jpg\",\"rating\":4.0},\"content\":\"Recently
+        Jedi\",\"avatar_path\":\"/https://secure.gravatar.com/avatar/cbabaea0fa98692d00130498d7ac5d7c.jpg\",\"rating\":4.0},\"content\":\"Recently
         I have quite liked the Marvel movies that I have watched. Sadly I did not
         like this movie at all. The only reason that it does not get a zero or one
         star rating is cool special effects and a few laughs.\\r\\n\\r\\nI want my
@@ -287,8 +287,8 @@ http_interactions:
         heroes are showcased. More hyped to see what will happen after the Avengers
         were disbanded.\",\"created_at\":\"2020-01-21T14:45:43.856Z\",\"id\":\"5e270e97168935000f34c58a\",\"updated_at\":\"2021-06-23T15:58:33.159Z\",\"url\":\"https://www.themoviedb.org/review/5e270e97168935000f34c58a\"},{\"author\":\"EricHill\",\"author_details\":{\"name\":\"\",\"username\":\"EricHill\",\"avatar_path\":\"/qRTZgvhgMkzIuHz7OvDYjxctVDj.jpg\",\"rating\":null},\"content\":\"Spiderman
         and Black Panther's introduction to this movie made it a whole lot better.
-        And we can expect that that is a foreshadow for their upcoming movies, too.\",\"created_at\":\"2020-01-23T02:41:56.747Z\",\"id\":\"5e2907f498f1f10018f529ea\",\"updated_at\":\"2021-06-23T15:58:33.273Z\",\"url\":\"https://www.themoviedb.org/review/5e2907f498f1f10018f529ea\"}],\"total_pages\":2,\"total_results\":23}"
-  recorded_at: Thu, 17 Nov 2022 16:55:32 GMT
+        And we can expect that that is a foreshadow for their upcoming movies, too.\",\"created_at\":\"2020-01-23T02:41:56.747Z\",\"id\":\"5e2907f498f1f10018f529ea\",\"updated_at\":\"2021-06-23T15:58:33.273Z\",\"url\":\"https://www.themoviedb.org/review/5e2907f498f1f10018f529ea\"}],\"total_pages\":2,\"total_results\":25}"
+  recorded_at: Sun, 21 May 2023 06:05:29 GMT
 - request:
     method: get
     uri: https://api.themoviedb.org/3/movie/271110/reviews?api_key=<API Key>&language=en-US&page=2
@@ -314,34 +314,34 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 17 Nov 2022 16:55:32 GMT
+      - Sun, 21 May 2023 06:05:29 GMT
       Server:
       - openresty
       Cache-Control:
-      - public, max-age=28800
+      - public, max-age=25740
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Key:
-      - 1b5a7ca59dc769ad61f44c8238e74aea68f22194
+      - 87a578af05106fe8a5c5fa5c51dea2cc
       X-Memc-Age:
-      - '3544'
+      - '0'
       X-Memc-Expires:
-      - '12313'
+      - '25740'
       Etag:
-      - W/"407cd644d7cb31005e028c2d5cc25c09"
+      - W/"f2d959bfd9a92bc22ebbdde92344d453"
       Vary:
-      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Accept-Encoding
       - Origin
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 3fddcbe99f78632bf14e5e80e6c14058.cloudfront.net (CloudFront)
+      - 1.1 e7ff4a714a3b1f464db9c76ee954a564.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - DEN52-P2
+      - DEN50-C2
       Alt-Svc:
       - h3=":443"; ma=86400
       X-Amz-Cf-Id:
-      - "-5NUpOOIDDJZOATyoxumAOJcxqb_QVR8pUDD4CydVTzOu5voJovbBg=="
+      - LSWTg2_sxy76b7CpMLvgUFEsB0nwTDpmyC1uT_8AyW1-AEMkiZXY9w==
     body:
       encoding: UTF-8
       string: '{"id":271110,"page":2,"results":[{"author":"JonathanGreen","author_details":{"name":"","username":"JonathanGreen","avatar_path":"/foos2Ri8RrJyh6zMHtDNKwVgnHo.jpg","rating":null},"content":"This
@@ -354,7 +354,7 @@ http_interactions:
         and who they can really trust. I''m proud of what <a href=\"https://paperhelp.nyc/\">paperhelp</a>
         did for this movie out ten this movie is a 100. It truly showed that when
         it comes to the Avengers everyone can be the leader (although I think Iron
-        man''s the true leader.)","created_at":"2020-09-17T17:10:58.497Z","id":"5f6398a20816c70037ba289e","updated_at":"2021-06-23T15:58:44.617Z","url":"https://www.themoviedb.org/review/5f6398a20816c70037ba289e"},{"author":"r96sk","author_details":{"name":"","username":"r96sk","avatar_path":"/https://www.gravatar.com/avatar/96c2e0e4ac98450f9e8e3c0a0a40aad8.jpg","rating":9.0},"content":"Awesome!
+        man''s the true leader.)","created_at":"2020-09-17T17:10:58.497Z","id":"5f6398a20816c70037ba289e","updated_at":"2021-06-23T15:58:44.617Z","url":"https://www.themoviedb.org/review/5f6398a20816c70037ba289e"},{"author":"r96sk","author_details":{"name":"","username":"r96sk","avatar_path":"/https://secure.gravatar.com/avatar/96c2e0e4ac98450f9e8e3c0a0a40aad8.jpg","rating":9.0},"content":"Awesome!
         My new favourite, so far at least.\r\n\r\nWhat an absolute joy <em>''Captain
         America: Civil War''</em> is! It made 147 minutes feel like so much less.
         Great action, enthralling story, sharp humour and some impeccable use of the
@@ -375,6 +375,12 @@ http_interactions:
         the title. It''s practically an avengers film. I''m not saying it''s an ill-fitting
         title, I get it''s the titular character''s arc, but I feel like it does the
         film a slight disservice - it''s impacts much more than Captain America.\r\n\r\nThat''s
-        not a big deal, at all, though. No doubt in my mind: this is superb!","created_at":"2021-01-20T01:17:14.174Z","id":"6007849aaf2da8003e90594f","updated_at":"2021-06-23T15:58:50.332Z","url":"https://www.themoviedb.org/review/6007849aaf2da8003e90594f"}],"total_pages":2,"total_results":23}'
-  recorded_at: Thu, 17 Nov 2022 16:55:32 GMT
+        not a big deal, at all, though. No doubt in my mind: this is superb!","created_at":"2021-01-20T01:17:14.174Z","id":"6007849aaf2da8003e90594f","updated_at":"2021-06-23T15:58:50.332Z","url":"https://www.themoviedb.org/review/6007849aaf2da8003e90594f"},{"author":"Andre
+        Gonzales","author_details":{"name":"Andre Gonzales","username":"SoSmooth1982","avatar_path":"/ast1oGYDI7Li9daLuOV4UxGiXj.jpg","rating":10.0},"content":"Wow!!!
+        Is the first thing that comes to mind. Insanely good movie. Plus the introduction
+        of Black Panther.","created_at":"2023-04-18T18:53:42.669Z","id":"643ee73660620a0313cc9f5e","updated_at":"2023-04-18T18:53:42.761Z","url":"https://www.themoviedb.org/review/643ee73660620a0313cc9f5e"},{"author":"Andre
+        Gonzales","author_details":{"name":"Andre Gonzales","username":"SoSmooth1982","avatar_path":"/ast1oGYDI7Li9daLuOV4UxGiXj.jpg","rating":10.0},"content":"Wow!!!
+        Is the first thing that comes to mind. Insanely good movie. Plus the introduction
+        of Black Panther.","created_at":"2023-05-03T19:21:55.946Z","id":"6452b453d8f44e0dadf433df","updated_at":"2023-05-03T19:21:56.034Z","url":"https://www.themoviedb.org/review/6452b453d8f44e0dadf433df"}],"total_pages":2,"total_results":25}'
+  recorded_at: Sun, 21 May 2023 06:05:29 GMT
 recorded_with: VCR 6.1.0
