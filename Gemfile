@@ -36,13 +36,14 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.6.1'
 gem 'faraday'
+gem 'faker'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'figaro'
   gem 'pry'
   gem 'factory_bot_rails'
-  gem 'faker'
+  # gem 'faker'
 end
 
 group :development do
