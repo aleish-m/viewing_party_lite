@@ -1,5 +1,19 @@
 <div id="page-title">
-  <% if session[:user_id].nil? %>
+  <% if @current_user %>
+    <center>
+      <br>
+        <%= button_to 'Logout', login_path, method: :delete  %>
+      <br>
+      <ul>
+        <h3>Current Users</h3>
+        <% @users.each_with_index do |user, index| %>
+          <li id="user-<%= index %>">
+            <p><%= user.name %>: <%= user.email%></p>
+          </li>
+        <% end %>
+      </ul >
+    </center>
+  <% else %>
     <center>
       <%= button_to 'Login', login_path, method: :get  %>
       <br>
@@ -8,24 +22,5 @@
       <%= button_to 'Guest Login', login_path, method: :post, params: {email: 'guest_test@mail.com', password: 'test123'} %>
       <br>
     </center>
-  <% else %>
-    <center>
-      <br>
-      <%= button_to 'Logout', login_path, method: :delete  %>
-      <br>
-    </center>
   <% end %>
 </div>
-
-<% if session[:user_id] %>
-  <center>
-    <ul>
-      <h3>Current Users</h3>
-      <% @users.each_with_index do |user, index| %>
-        <li id="user-<%= index %>">
-          <p><%= user.name %>: <%= user.email%></p>
-        </li>
-      <% end %>
-    </ul >
-  </center>
-<% end %>
