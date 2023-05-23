@@ -19,7 +19,13 @@
 
     <nav class="site-header sticky-top py-1 bg-dark">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2 d-none d-md-inline-block text-white" href="/">Home</a>
+        <a class="py-2 d-none d-md-inline-block text-white" href="/dashboard">Dashboard</a>
+        <a class="py-2 d-none d-md-inline-block text-white" href="/discover">Discover Movies</a>
+        <% if @current_user %>
+          <a class="py-2 d-none d-md-inline-block text-white" href="/">Logout</a>
+        <% else %>
+          <a class="py-2 d-none d-md-inline-block text-white" href="/login">Login</a>
+        <% end %>
       </div>
     </nav>
 
