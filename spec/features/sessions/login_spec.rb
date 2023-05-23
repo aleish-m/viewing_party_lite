@@ -9,16 +9,16 @@ RSpec.describe 'User Login Page' do
       it 'I see I see 3 buttons: Log-In, Create Account, and Log-In as Guest' do
         visit root_path
 
-        expect(page).to have_button("Log In")
+        expect(page).to have_button("Login")
         expect(page).to have_button("Create an Account")
-        expect(page).to have_button("Guest Log In")
+        expect(page).to have_button("Guest Login")
 
       end
 
-      it 'I click the "Guest Log In" button I am taken to the Guest Dashboard' do
+      it 'I click the "Guest Login" button I am taken to the Guest Dashboard' do
         visit root_path
 
-        click_button "Guest Log In"
+        click_button "Guest Login"
 
         expect(current_path).to eq dashboard_path
         expect(page).to have_content("Guest's Dashboard")
@@ -31,7 +31,7 @@ RSpec.describe 'User Login Page' do
       it "I see a link for 'Log In', When I click on 'Log In' I'm taken to a Log In page" do
         visit root_path
 
-        click_button "Log In"
+        click_button "Login"
 
         expect(current_path).to eq login_path
       end
