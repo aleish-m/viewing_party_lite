@@ -1,5 +1,4 @@
 class MoviesController < ApplicationController
-  before_action :current_user
 
   def show
     @movie = MovieFacade.movie_data(params[:id])
