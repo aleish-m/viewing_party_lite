@@ -8,9 +8,9 @@ RSpec.describe 'User Login Page' do
         visit root_path
 
         expect(page).to have_button("Create an Account")
-        expect(page).to have_button("Log In")
+        expect(page).to have_button("Login")
 
-        expect(page).to_not have_button("Log Out")
+        expect(page).to_not have_button("Logout")
       end
     end
 
@@ -28,22 +28,22 @@ RSpec.describe 'User Login Page' do
         visit root_path
 
         expect(page).to_not have_button("Create an Account")
-        expect(page).to_not have_button("Log In")
+        expect(page).to_not have_button("Login")
 
-        expect(page).to have_button("Log Out")
+        expect(page).to have_button("Logout")
       end
 
-      it "When I click the link to Log Out I'm taken to the landing pagend I can see that the Log Out link has changed back to a Log In link" do
+      it "When I click the link to Log Out I'm taken to the landing page and I can see that the Log Out link has changed back to a Log In link" do
         visit root_path
 
-        click_button("Log Out")
+        click_button("Logout")
 
         expect(current_path).to eq root_path
 
         expect(page).to have_button("Create an Account")
-        expect(page).to have_button("Log In")
+        expect(page).to have_button("Login")
 
-        expect(page).to_not have_button("Log Out")
+        expect(page).to_not have_button("Logout")
 
         expect(page).to have_content("You have successfully logged out.")
       end

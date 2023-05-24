@@ -16,9 +16,16 @@
   </center>
 </div>
 
+<div id = guest_user>
+  <center> 
+    <%= button_to 'Guest Login', login_path, method: :post, params: {email: 'guest_test@mail.com', password: 'test123'} %>
+    <br>
+  </center>
+</div>
+
 <div id = new_user>
   <center> 
-    <%= button_to 'Create a New User', register_path, method: :get  %>
+    <%= button_to 'Create New Account', register_path, method: :get  %>
     <br>
   </center>
 </div>

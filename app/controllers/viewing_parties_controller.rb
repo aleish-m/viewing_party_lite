@@ -2,20 +2,18 @@ class ViewingPartiesController < ApplicationController
   before_action :require_user
 
   def new
-    @user = current_user
     @movie = MovieFacade.movie_data(params[:movie_id])
     @party = Party.new
-    @users = User.all.where.not(id: @user.id)
+    @users = User.all.where.not(id: @current_user.id)
   end
 
   def create
-    user = current_user
     movie = MovieFacade.movie_data(params[:movie_id])
     party = Party.new(party_params)
-    guests = User.all.where.not(id: user.id)
+    guests = User.all.where.not(id: @current_user.id)
 
     if party.save
-      party.users << user
+      party.users << @current_user
       guests.each do |guest|
         unless friend_params[:"#{guest.name}"].blank?
           party.users << guest

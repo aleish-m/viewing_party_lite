@@ -16,7 +16,7 @@
       <%= form.check_box :"#{user.name}", {values: true}, "#{user.id}", " "%>
     <% end %></p>
 
-    <%= form.hidden_field :host_id, value: @user.id %>
+    <%= form.hidden_field :host_id, value: @current_user.id %>
     <%= form.hidden_field :movie_runtime, value: @movie.runtime %>
     <p><%= form.submit "Create Party" %></p>
   <% end %>

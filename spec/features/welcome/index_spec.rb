@@ -49,7 +49,7 @@ RSpec.describe 'welcome page', type: :feature do
       end
 
       it 'has a button to Log Out' do
-        expect(page).to have_button('Log Out')
+        expect(page).to have_button('Logout')
       end
 
       it 'has a section for existing users where each users name and email is listed' do
